@@ -1,0 +1,74 @@
+{
+  "targets": {
+    "japan": {
+      "sha1": "5946f1b59e8d71cc61249661464d864185c92a5f",
+      "families": {"malloc": "A", "text_printer": "JP"},
+      "modules": {
+        "dma3_manager": {"start": "0x000BFC", "end": "0x001028", "sha1": "8b2718bf8a170d9da2998e724a8ab51659d59f01"},
+        "bg": {"start": "0x001028", "end": "0x00292C", "sha1": "ce1c4738712844bf006027cf67aa4bff59371994"},
+        "malloc": {"start": "0x00292C", "end": "0x002C1C", "sha1": "f73ba9b7a0af92601aa6e3b046e8206dbc5906fa"},
+        "text_printer": {"start": "0x002C1C", "end": "0x003AEC", "sha1": "f5bae5cd841f18fe292f37a3e2916a939e1ffb97"}
+      }
+    },
+    "usa": {
+      "sha1": "574fa542ffebb14be69902d1d36f1ec0a4afd71e",
+      "families": {"malloc": "A", "text_printer": "INTL"},
+      "modules": {
+        "dma3_manager": {"start": "0x000BFC", "end": "0x001028", "sha1": "8b2718bf8a170d9da2998e724a8ab51659d59f01"},
+        "bg": {"start": "0x001028", "end": "0x00292C", "sha1": "3e2b21fa70d2be1ed917d5ac1e843a16755342ed"},
+        "malloc": {"start": "0x00292C", "end": "0x002C1C", "sha1": "1bd9d2779850f47ff758ed6ed63373cc373bfab3"},
+        "text_printer": {"start": "0x002C1C", "end": "0x003B20", "sha1": "b9a5efe8c33fef6f19219af6384a9d8476786639"}
+      }
+    },
+    "europe_rev1": {
+      "sha1": "7862c67bdecbe21d1d69ce082ce34327e1c6ed5e",
+      "families": {"malloc": "A", "text_printer": "INTL"},
+      "modules": {
+        "dma3_manager": {"start": "0x000C10", "end": "0x00103C", "sha1": "8b2718bf8a170d9da2998e724a8ab51659d59f01"},
+        "bg": {"start": "0x00103C", "end": "0x002940", "sha1": "c835d551e0296848114f4907484b1a4f2c4699a7"},
+        "malloc": {"start": "0x002940", "end": "0x002C30", "sha1": "1e14d57c47165ee4eb9f668067552bf811126d4d"},
+        "text_printer": {"start": "0x002C30", "end": "0x003B34", "sha1": "246e3ad45fe969e65145f8dcc4c76d1a4d219392"}
+      }
+    },
+    "germany": {
+      "sha1": "0802d1fb185ee3ed48d9a22afb25e66424076dac",
+      "families": {"malloc": "B", "text_printer": "INTL"},
+      "modules": {
+        "dma3_manager": {"start": "0x000C0C", "end": "0x001038", "sha1": "8b2718bf8a170d9da2998e724a8ab51659d59f01"},
+        "bg": {"start": "0x001038", "end": "0x00293C", "sha1": "7a2b1049975e4c6d41b003e74b08db6783090fd4"},
+        "malloc": {"start": "0x00293C", "end": "0x002B9C", "sha1": "15aee3a08f327ff51afd6c9742988a4f5eea8e49"},
+        "text_printer": {"start": "0x002B9C", "end": "0x003AA0", "sha1": "1d57f46eb55461622ceac7eca85901301157ce37"}
+      }
+    },
+    "france": {
+      "sha1": "4b5758c14d0a07b70ef3ef0bd7fa5e7ce6978672",
+      "families": {"malloc": "B", "text_printer": "INTL"},
+      "modules": {
+        "dma3_manager": {"start": "0x000BF8", "end": "0x001024", "sha1": "8b2718bf8a170d9da2998e724a8ab51659d59f01"},
+        "bg": {"start": "0x001024", "end": "0x002928", "sha1": "9dc2a474d6ada2bd7d51ea72158ce8f33cc027ce"},
+        "malloc": {"start": "0x002928", "end": "0x002B88", "sha1": "72d6754ee29bfb48cc905f53c19ad17593a14f31"},
+        "text_printer": {"start": "0x002B88", "end": "0x003A8C", "sha1": "471c92a51926ddc9d49496eb6e86500cc7d3d9dc"}
+      }
+    },
+    "italy": {
+      "sha1": "a1dfea1493d26d1f024be8ba1de3d193fcfc651e",
+      "families": {"malloc": "B", "text_printer": "INTL"},
+      "modules": {
+        "dma3_manager": {"start": "0x000C0C", "end": "0x001038", "sha1": "8b2718bf8a170d9da2998e724a8ab51659d59f01"},
+        "bg": {"start": "0x001038", "end": "0x00293C", "sha1": "e154f52450bd4f9983af3266c680e808d29bc786"},
+        "malloc": {"start": "0x00293C", "end": "0x002B9C", "sha1": "bbf2b4575d69e9433a10ff57dfc5f3e8da1bf532"},
+        "text_printer": {"start": "0x002B9C", "end": "0x003AA0", "sha1": "940a92a5d86bea8b00c2254ae27d9df934b5b573"}
+      }
+    },
+    "spain": {
+      "sha1": "f9ebee5d228cb695f18ef2ced41630a09fa9eb05",
+      "families": {"malloc": "B", "text_printer": "INTL"},
+      "modules": {
+        "dma3_manager": {"start": "0x000BF8", "end": "0x001024", "sha1": "8b2718bf8a170d9da2998e724a8ab51659d59f01"},
+        "bg": {"start": "0x001024", "end": "0x002928", "sha1": "452c5e2e8ea01df7580318df7a6e4e3c262e501a"},
+        "malloc": {"start": "0x002928", "end": "0x002B88", "sha1": "b5f9331982a0e6bb77c2f37801d35d2c5be03f81"},
+        "text_printer": {"start": "0x002B88", "end": "0x003A8C", "sha1": "9e2f43ac917541e4872cf9820bba2bd95ae016aa"}
+      }
+    }
+  }
+}
