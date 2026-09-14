@@ -100,3 +100,16 @@ Human-viewable source assets are preferred where practical. Pokémon sprite work
 ## Status
 
 Repository initialized. Full ROM mapping and reconstruction are in progress.
+
+## 📚 Documentation
+
+| Document | Purpose |
+| --- | --- |
+| [Documentation Hub](docs/README.md) | Central entry point for project documentation |
+| [Project Status](docs/PROJECT_STATUS.md) | Reconstruction and matching status |
+| [Version Coverage](docs/VERSIONS.md) | Supported releases, revisions, sizes, and hashes |
+| [Disassembly Standards](docs/DISASSEMBLY_STANDARDS.md) | Source reconstruction and provenance standards |
+| [Build and Matching](docs/BUILD_AND_MATCHING.md) | Reproducible build and exact-match workflow |
+| [Verification](docs/VERIFICATION.md) | Evidence levels and matching criteria |
+| [Asset Workflow](docs/ASSET_WORKFLOW.md) | Graphics, sprites, deduplication, manifests, and review batches |
+| [Contributing](CONTRIBUTING.md) | Contribution and pull-request guidance |
