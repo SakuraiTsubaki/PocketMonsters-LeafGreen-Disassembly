@@ -31,3 +31,4 @@ No retail ROM, modified ROM, or reconstructed ROM binary is stored in this repos
 - `013–016`: Weedle, Kakuna, Beedrill, Pidgey
 - `017–020`: Pidgeotto, Pidgeot, Rattata, Raticate
 - `021–024`: Spearow, Fearow, Ekans, Arbok
+- `025–028`: Pikachu, Raichu, Sandshrew, Sandslash
