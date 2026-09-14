@@ -29,3 +29,4 @@ No retail ROM, modified ROM, or reconstructed ROM binary is stored in this repos
 - `005–008`: Charmeleon, Charizard, Squirtle, Wartortle
 - `009–012`: Blastoise, Caterpie, Metapod, Butterfree
 - `013–016`: Weedle, Kakuna, Beedrill, Pidgey
+- `017–020`: Pidgeotto, Pidgeot, Rattata, Raticate
