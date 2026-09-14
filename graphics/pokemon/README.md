@@ -1,24 +1,28 @@
-# Pokémon sprite extraction — batch 001–004
+# Pokémon sprite extraction
 
-This batch contains Pokémon #001–#004 from the seven uploaded retail Pokémon LeafGreen ROMs.
+Pokémon graphics are extracted independently from all seven uploaded retail Pokémon LeafGreen ROMs, compared byte-for-byte after decompression, and deduplicated before being committed.
 
 ## Deduplication policy
 
-All seven ROMs were parsed independently. For these four species, the decompressed front graphics, back graphics, normal palette, and shiny palette are byte-identical across USA, Europe Rev 1, German, French, Italian, Spanish, and Japanese targets.
+When front graphics, back graphics, normal palettes, and shiny palettes are identical across targets, only one canonical asset set is stored. Per-ROM source offsets and hashes remain in `metadata/` so provenance is not lost.
 
-Therefore only one canonical copy of each asset is stored here. `metadata/manifest.csv` records the source offset for every target ROM instead of duplicating the same asset seven times.
+Language folders are **not** created for identical graphics. A second copy is added only when the decoded graphic or palette actually differs.
 
-## Files per species
+## Upload policy
 
-- `front.4bpp` — decompressed 64×64 4bpp front sprite tiles
-- `back.4bpp` — decompressed 64×64 4bpp back sprite tiles
-- `normal.gbapal` — 16-color normal palette in GBA BGR555 format
-- `shiny.gbapal` — 16-color shiny palette in GBA BGR555 format
+Sprite work is committed in small numbered batches instead of one huge upload. Human-viewable PNGs are committed first for review; source-format tile/palette exports and reconstruction metadata are committed in separate small source batches.
+
+Each completed visual species set contains:
+
 - `front_normal.png`
 - `front_shiny.png`
 - `back_normal.png`
 - `back_shiny.png`
 
-PNG files are human-viewable renderings generated directly from the extracted tile and palette data.
+The images are rendered directly from the retail ROM's decompressed 64×64 4bpp tile data and GBA BGR555 palettes; they are not redraws.
 
-No ROM image or reconstructed ROM binary is included.
+No retail ROM, modified ROM, or reconstructed ROM binary is stored in this repository.
+
+## Current visual batches
+
+- `001–004`: Bulbasaur, Ivysaur, Venusaur, Charmander
