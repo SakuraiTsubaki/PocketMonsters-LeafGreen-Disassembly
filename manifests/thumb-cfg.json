@@ -1,0 +1,2 @@
+{"schema_version":1,"id":"leafgreen-jp-rev0-thumb-cfg","generator":{"repository":"SakuraiTsubaki/Disassembly","tool":"tools/disassemble_thumb_cfg.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2","start_address":"0x080003a4"}],"outputs":[{"path":"analysis/leafgreen-jp-rev0-thumb-cfg.json","sha256":"0163286183999e4aba3b4e9160152c93bfff0c754c7b23a30dd80cd71c7c1625"},{"path":"src/thumb_entry_reachable.s","sha256":"3fec4d373eca6ac9ef409634fb4b289fc5e99c649b73c0607376e63ccd636f19"}]}
+
