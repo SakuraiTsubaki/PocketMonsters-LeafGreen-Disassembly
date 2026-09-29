@@ -1,0 +1,2 @@
+{"schema_version":1,"id":"leafgreen-jp-rev0-entrypoint","generator":{"repository":"SakuraiTsubaki/Disassembly","tool":"tools/disassemble_gba_entry.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2","offset":0,"length":4}],"outputs":[{"path":"analysis/leafgreen-jp-rev0-entrypoint.json","sha256":"93aaea8139bd370a4dfd8b7498defd0d21e87a70222ac6b2390431f981341c63"},{"path":"src/rom_entry.s","sha256":"01628f1418cdec5232cdc7b8f761a03bd6dbae2ccb58d4bf5f44333912498966"}]}
+
