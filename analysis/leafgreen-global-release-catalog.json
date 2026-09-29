@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "game_code_prefix": "BPG",
+  "observed_files": 7,
+  "unique_identities": 7,
+  "language_priority": [
+    "Japanese",
+    "English",
+    "German",
+    "French",
+    "Italian",
+    "Spanish"
+  ],
+  "releases": [
+    {
+      "id": "bpg-j-rev0-retail",
+      "market": "Japan",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "5946f1b59e8d71cc61249661464d864185c92a5f",
+      "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
+      "observed_filenames": [
+        "Pocket Monsters - Leaf Green (Japan).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON LEAF",
+        "game_code": "BPGJ",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 0,
+        "header_checksum": 124
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 124
+      }
+    },
+    {
+      "id": "bpg-e-rev0-retail",
+      "market": "USA/Europe",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "574fa542ffebb14be69902d1d36f1ec0a4afd71e",
+      "sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc",
+      "observed_filenames": [
+        "Pokemon - Leaf Green Version (USA).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON LEAF",
+        "game_code": "BPGE",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 0,
+        "header_checksum": 129
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 129
+      }
+    },
+    {
+      "id": "bpg-e-rev1-retail",
+      "market": "USA/Europe",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "7862c67bdecbe21d1d69ce082ce34327e1c6ed5e",
+      "sha256": "2f978f635b9593f6ca26ec42481c53a6b39f6cddd894ad5c062c1419fac58825",
+      "observed_filenames": [
+        "Pokemon - Leaf Green Version (Europe) (Rev 1).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON LEAF",
+        "game_code": "BPGE",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 1,
+        "header_checksum": 128
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 128
+      }
+    },
+    {
+      "id": "bpg-d-rev0-retail",
+      "market": "Germany",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "0802d1fb185ee3ed48d9a22afb25e66424076dac",
+      "sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2",
+      "observed_filenames": [
+        "Pokemon - Blattgruene Edition (Germany).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON LEAF",
+        "game_code": "BPGD",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 0,
+        "header_checksum": 130
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 130
+      }
+    },
+    {
+      "id": "bpg-f-rev0-retail",
+      "market": "France",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "4b5758c14d0a07b70ef3ef0bd7fa5e7ce6978672",
+      "sha256": "cc0fa93f4631d0814afcd5a273edf28f2876e126e8ef0df4dd39dd6f36e53ed3",
+      "observed_filenames": [
+        "Pokemon - Version Vert Feuille (France).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON LEAF",
+        "game_code": "BPGF",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 0,
+        "header_checksum": 128
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 128
+      }
+    },
+    {
+      "id": "bpg-i-rev0-retail",
+      "market": "Italy",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "a1dfea1493d26d1f024be8ba1de3d193fcfc651e",
+      "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+      "observed_filenames": [
+        "Pokemon - Versione Verde Foglia (Italy).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON LEAF",
+        "game_code": "BPGI",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 0,
+        "header_checksum": 125
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 125
+      }
+    },
+    {
+      "id": "bpg-s-rev0-retail",
+      "market": "Spain",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "f9ebee5d228cb695f18ef2ced41630a09fa9eb05",
+      "sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48",
+      "observed_filenames": [
+        "Pokemon - Edicion Verde Hoja (Spain).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON LEAF",
+        "game_code": "BPGS",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 0,
+        "header_checksum": 115
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 115
+      }
+    }
+  ]
+}
