@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "asset_id": "leafgreen-en-rev0-game-title-logo",
+  "release_id": "leafgreen-en-rev0",
+  "release_status": "candidate",
+  "source": {"rom_sha256":"78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc","offset":"0xEAB944","compression":"GBA BIOS LZ77","compressed_length":7105,"compressed_sha256":"7c061067f0b58f2f56735488112c19318bb88f40053963f05e9ae30cf585979f"},
+  "decoded": {"format":"GBA 8bpp tiles","length":16384,"tile_count":256,"sha256":"d2b5c13a0b6d4f444eada4fdcf2c1bd96210e665004bb6f56d3019ee9fcd9bfe"},
+  "reference": {"repository":"pret/pokefirered","commit":"037335f4c725d7c9aecdac87066f2002b4bd7e14","path":"graphics/title_screen/leafgreen/game_title_logo.png","git_blob_sha1":"c347381212cdcd1317a7f7dbd8b5c24d50fe1777","png_sha256":"e591cbe59daa52d959bf8574fa7f50992cc1f8a39ac20dad56b0c5497d5c8ac5","relationship":"indexed PNG converted in 8x8 tile order exactly matches decoded ROM bytes"},
+  "outputs": [
+    {"path":"graphics/title/game-title-logo-en.png","sha256":"e9786659360e9ff01cfd0c1a8425b624e5753b8c32a20a9237bac2171c25d54e"},
+    {"path":"graphics/title/game-title-logo-en.pal","sha256":"8ddd05bd076064141f146b6d2e8e5919fb9f35369abedb8d111d37d019901081"},
+    {"path":"analysis/leafgreen-en-rev0-game-title-logo.json"}
+  ],
+  "raw_rom_bytes_included": false
+}
