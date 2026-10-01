@@ -1,0 +1,12 @@
+{
+  "rom_size": 16777216,
+  "rom_sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+  "source_offset": 15376508,
+  "color_count": 256,
+  "source_format": "gba-bgr555",
+  "source_length": 512,
+  "source_sha256": "d8f8ad8c1a0346e149c24066910a7b5d624522ef636f6da24002a9cc1787bddd",
+  "output_format": "JASC-PAL",
+  "palette_sha256": "f77ef2e787ec8761057bd3f3d3559b26bcd10d5fe5c784bde1a40cc7108a687a",
+  "raw_rom_bytes_included": false
+}

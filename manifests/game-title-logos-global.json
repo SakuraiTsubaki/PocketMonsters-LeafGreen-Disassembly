@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "asset_group": "leafgreen-localized-game-title-logos",
+  "languages": [
+    "de",
+    "fr",
+    "it",
+    "es"
+  ],
+  "assets": [
+    {
+      "language": "de",
+      "release_id": "leafgreen-de-rev0",
+      "rom_sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2",
+      "palette": {
+        "offset": "0xEAA060",
+        "source_sha256": "c62cd2c6b96e634403e76b45451b78a63772e5f1d16cc46fa89c9ab0d653980c",
+        "output_sha256": "4ce41ef11072152f78eede9ff77f23ae51caf1455a85cd7f21951a55e7e8bf6a",
+        "path": "graphics/title/game-title-logo-de.pal"
+      },
+      "tiles": {
+        "offset": "0xEAA260",
+        "compressed_length": 6971,
+        "compressed_sha256": "67077b584344537e45715007a4367387ffd66297ccfdb1e79ca56db594d9643d",
+        "decompressed_sha256": "d4edaf81228fbf7d1388b7afb28b2d89031dc3e75a621e43726ee7b7b13eb9b3",
+        "path": "graphics/title/game-title-logo-de.png",
+        "png_sha256": "0e944d0071f3840a3e671d5d6b1d1624de69eb811ee1c621f78c722530e322dd"
+      }
+    },
+    {
+      "language": "fr",
+      "release_id": "leafgreen-fr-rev0",
+      "rom_sha256": "cc0fa93f4631d0814afcd5a273edf28f2876e126e8ef0df4dd39dd6f36e53ed3",
+      "palette": {
+        "offset": "0xEAA0A0",
+        "source_sha256": "3ba076891b4a99230e7b17f302f2b619440d2af9eaa24f1feb69ee3426f77c05",
+        "output_sha256": "ac18daafc02a72e1be8fb2d6ecf5e5e7c6fb78a623846fb2f5337f9067f48be4",
+        "path": "graphics/title/game-title-logo-fr.pal"
+      },
+      "tiles": {
+        "offset": "0xEAA2A0",
+        "compressed_length": 6932,
+        "compressed_sha256": "5cf6d1af567c38502773dd4269cbc1fb94a46fae92250a209bd84ee44a068e5b",
+        "decompressed_sha256": "da1eef526a381bf675195eb7627b5366f9befea542adee15ebe50592163d9c3f",
+        "path": "graphics/title/game-title-logo-fr.png",
+        "png_sha256": "e60f20957a99826614317a546932254d6c83ada47c464334c33a70fbf165417a"
+      }
+    },
+    {
+      "language": "it",
+      "release_id": "leafgreen-it-rev0",
+      "rom_sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+      "palette": {
+        "offset": "0xEAA07C",
+        "source_sha256": "d8f8ad8c1a0346e149c24066910a7b5d624522ef636f6da24002a9cc1787bddd",
+        "output_sha256": "f77ef2e787ec8761057bd3f3d3559b26bcd10d5fe5c784bde1a40cc7108a687a",
+        "path": "graphics/title/game-title-logo-it.pal"
+      },
+      "tiles": {
+        "offset": "0xEAA27C",
+        "compressed_length": 7083,
+        "compressed_sha256": "7638a3670f35858f598019a7c89e818c15e93b9809ba8953cffe0f24bb05335d",
+        "decompressed_sha256": "f578fc6722f574623c536734716aa63a274fb9b3dde57985e36fde7f4298001c",
+        "path": "graphics/title/game-title-logo-it.png",
+        "png_sha256": "410a01b4f5a3d789b670e579fb217cc3b70ce3fe1e39f3c32927eb7ef4fc4fab"
+      }
+    },
+    {
+      "language": "es",
+      "release_id": "leafgreen-es-rev0",
+      "rom_sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48",
+      "palette": {
+        "offset": "0xEAA0D8",
+        "source_sha256": "a558fe7530f47550ca383af44875190e56feb9a675be4a0a7cf2f0627879e3f8",
+        "output_sha256": "91dae9191d32b7b1ac0fb9ed43dd35777c8c685c5a2f4c0da5770c0020022e60",
+        "path": "graphics/title/game-title-logo-es.pal"
+      },
+      "tiles": {
+        "offset": "0xEAA2D8",
+        "compressed_length": 6892,
+        "compressed_sha256": "666eb44cab51d62b801d7edf7743a474b2b45ee10255145844cafd6defcce70b",
+        "decompressed_sha256": "a0df52328cf7f8ff38751b5ff52dacc0292bf8e8fee5c97dcb68027b84736c4f",
+        "path": "graphics/title/game-title-logo-es.png",
+        "png_sha256": "d1303d05f0637513db9a3833d49745fff5711843b34b981fb47b876ba1bce5d1"
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
