@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "asset_group": "leafgreen-jp-version-sprite-sheets",
+  "target": {
+    "release": "BPGJ-rev0",
+    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"
+  },
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/extract_gba_lz77_4bpp.py",
+    "mode": "grayscale-index-preview",
+    "tiles_per_row": 16
+  },
+  "palette_status": "unverified-not-published",
+  "outputs": [
+    {
+      "path": "graphics/title/jp-version-sprite-sheet-0.png",
+      "sha256": "81aa5016125f9862a4f2ea674b3a5e58c41cdf8953f3656557d1f8be7c7bfa54"
+    },
+    {
+      "path": "graphics/title/jp-version-sprite-sheet-1.png",
+      "sha256": "83f8a6d0907cd01419ffda87ed0336e8ce387f3661f3090a54fc1a5f3af73b7c"
+    },
+    {
+      "path": "analysis/leafgreen-jp-version-sprite-sheet-0.json",
+      "sha256": "24cf1b38f7d48bcc0e1cd9e7960d38f6904f71c3d8e26ef175d61a821b4978bc"
+    },
+    {
+      "path": "analysis/leafgreen-jp-version-sprite-sheet-1.json",
+      "sha256": "f77a0d1411408c99d0ccbf73408dade84d4a75981101dca6ff3929c1988251c5"
+    },
+    {
+      "path": "research/jp-version-sprite-sheets.md",
+      "sha256": "207790ebc9d1364a8614aa52958011f7a52ea343f791cc692c3ef0a4b495e01e"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
+
