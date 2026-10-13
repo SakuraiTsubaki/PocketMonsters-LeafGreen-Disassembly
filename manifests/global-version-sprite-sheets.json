@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "asset_group": "leafgreen-global-version-sprite-sheets",
+  "languages": ["en", "de", "fr", "it", "es"],
+  "releases": [
+    {"language": "en", "release_id": "leafgreen-en-rev0", "game_code": "BPGE", "revision": 0, "sha1": "574fa542ffebb14be69902d1d36f1ec0a4afd71e", "sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc"},
+    {"language": "de", "release_id": "leafgreen-de-rev0", "game_code": "BPGD", "revision": 0, "sha1": "0802d1fb185ee3ed48d9a22afb25e66424076dac", "sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2"},
+    {"language": "fr", "release_id": "leafgreen-fr-rev0", "game_code": "BPGF", "revision": 0, "sha1": "4b5758c14d0a07b70ef3ef0bd7fa5e7ce6978672", "sha256": "cc0fa93f4631d0814afcd5a273edf28f2876e126e8ef0df4dd39dd6f36e53ed3"},
+    {"language": "it", "release_id": "leafgreen-it-rev0", "game_code": "BPGI", "revision": 0, "sha1": "a1dfea1493d26d1f024be8ba1de3d193fcfc651e", "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076"},
+    {"language": "es", "release_id": "leafgreen-es-rev0", "game_code": "BPGS", "revision": 0, "sha1": "f9ebee5d228cb695f18ef2ced41630a09fa9eb05", "sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48"}
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "discovery_tool": "tools/scan_gba_lz77.py",
+    "extraction_tool": "tools/extract_gba_lz77_4bpp.py",
+    "mode": "grayscale-index-preview",
+    "tiles_per_row": 16
+  },
+  "palette_status": "unverified-not-published",
+  "outputs": [
+    {"path": "analysis/leafgreen-de-version-sprite-sheet-0.json", "sha256": "485d8629eade995e06cb1133cd5e1da2e94d501b5bb71d8bd3afe8c702ca02ed"},
+    {"path": "analysis/leafgreen-de-version-sprite-sheet-1.json", "sha256": "bc60c08c91f6590b04cad83e81d0ae8f2a04c0d55cfdebd715eb3aabdc23c7d1"},
+    {"path": "analysis/leafgreen-en-version-sprite-sheet-0.json", "sha256": "b5ca0ac044983ea107af31dcf15b9661f2d94ef3a90e91d290de8c96dd504be3"},
+    {"path": "analysis/leafgreen-en-version-sprite-sheet-1.json", "sha256": "cf5e02a78a0a545c2929af8c75cef3753ebf087c021146ae75d2448703825b5d"},
+    {"path": "analysis/leafgreen-es-version-sprite-sheet-0.json", "sha256": "630bddfa7984e07d407f498aa9c401b72665d98d2a1005df91bffcd32c8e8dbf"},
+    {"path": "analysis/leafgreen-es-version-sprite-sheet-1.json", "sha256": "b60b6cc40a578487193a5d4f296aa8bf99b81c15eccc489b71df52c422706462"},
+    {"path": "analysis/leafgreen-fr-version-sprite-sheet-0.json", "sha256": "3b8025375dc1391d217c1b40cf851ced13bda6ccfd8f591d40466c6cabc7d4dd"},
+    {"path": "analysis/leafgreen-fr-version-sprite-sheet-1.json", "sha256": "19bfee18de0a9fa92fa45db08fd2a9462c3cb9fad3ee8cba5a3fb47b8bc3c2d8"},
+    {"path": "analysis/leafgreen-it-version-sprite-sheet-0.json", "sha256": "8cef25f8c22a4f5df6c04f7eeac593070346e4fac6ac9ca86b63cd06a4689cba"},
+    {"path": "analysis/leafgreen-it-version-sprite-sheet-1.json", "sha256": "0ad8eb4120c587a312f56412c594489a53f4a8b1572795eb2afff519a4533fb0"},
+    {"path": "graphics/title/de-version-sprite-sheet-0.png", "sha256": "81aa5016125f9862a4f2ea674b3a5e58c41cdf8953f3656557d1f8be7c7bfa54"},
+    {"path": "graphics/title/de-version-sprite-sheet-1.png", "sha256": "83f8a6d0907cd01419ffda87ed0336e8ce387f3661f3090a54fc1a5f3af73b7c"},
+    {"path": "graphics/title/en-version-sprite-sheet-0.png", "sha256": "81aa5016125f9862a4f2ea674b3a5e58c41cdf8953f3656557d1f8be7c7bfa54"},
+    {"path": "graphics/title/en-version-sprite-sheet-1.png", "sha256": "83f8a6d0907cd01419ffda87ed0336e8ce387f3661f3090a54fc1a5f3af73b7c"},
+    {"path": "graphics/title/es-version-sprite-sheet-0.png", "sha256": "81aa5016125f9862a4f2ea674b3a5e58c41cdf8953f3656557d1f8be7c7bfa54"},
+    {"path": "graphics/title/es-version-sprite-sheet-1.png", "sha256": "83f8a6d0907cd01419ffda87ed0336e8ce387f3661f3090a54fc1a5f3af73b7c"},
+    {"path": "graphics/title/fr-version-sprite-sheet-0.png", "sha256": "81aa5016125f9862a4f2ea674b3a5e58c41cdf8953f3656557d1f8be7c7bfa54"},
+    {"path": "graphics/title/fr-version-sprite-sheet-1.png", "sha256": "83f8a6d0907cd01419ffda87ed0336e8ce387f3661f3090a54fc1a5f3af73b7c"},
+    {"path": "graphics/title/it-version-sprite-sheet-0.png", "sha256": "81aa5016125f9862a4f2ea674b3a5e58c41cdf8953f3656557d1f8be7c7bfa54"},
+    {"path": "graphics/title/it-version-sprite-sheet-1.png", "sha256": "83f8a6d0907cd01419ffda87ed0336e8ce387f3661f3090a54fc1a5f3af73b7c"},
+    {"path": "research/global-version-sprite-sheets.md", "sha256": "205c97c73c87d0e1951cbc2ff5b81d5a2cd15d7f28ff4b3e2da01b115b225449"}
+  ],
+  "raw_rom_bytes_included": false
+}
