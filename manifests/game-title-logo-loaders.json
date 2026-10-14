@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "asset": "localized-game-title-logo",
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/trace_gba_bg_asset_load.py",
+    "tool_sha256": "bd6ad6fa5ba659c562eeb17cabe32350536c816745e203f33e59553bb730e516"
+  },
+  "inputs": [
+    {
+      "path": "analysis/leafgreen-de-rev0-game-title-logo.json",
+      "sha256": "5312fa3e4209d2c0997808349ce80eedb776e1487f296bbda67b1143f7264c10"
+    },
+    {
+      "path": "analysis/leafgreen-en-rev0-game-title-logo.json",
+      "sha256": "267dbe0b0f1a2f7ec824420405e8405ae01165e4d2b30fd5d39c3467e293fda4"
+    },
+    {
+      "path": "analysis/leafgreen-es-rev0-game-title-logo.json",
+      "sha256": "94e6a35f980af81fcfd52a6c326d4c6df99db3559d59863374fa65d7165f7130"
+    },
+    {
+      "path": "analysis/leafgreen-fr-rev0-game-title-logo.json",
+      "sha256": "7f17b160d89a139d9681302ea894b944995083300ebfa2acc54aee62fa841c18"
+    },
+    {
+      "path": "analysis/leafgreen-it-rev0-game-title-logo.json",
+      "sha256": "e2a9f6b09dbc7acc6148c99d55edcf16767899ed1bc777d9fbdb81c0e09ce8ca"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "src/game_title_logo_loader.asm",
+      "sha256": "fe6d3c96e8788622689dc157ff348f76d620bc9ab9a3b0442eb208f6fa46ae27"
+    },
+    {
+      "path": "research/game-title-logo-loader.md",
+      "sha256": "dbda4c6bf39e03f880fecba25cd7c97c6d3264b6d480011d7e1f6ed1649da1a1"
+    },
+    {
+      "path": "tests/test_game_title_logo_loader.py",
+      "sha256": "39afb88e86a7d6265512de3fa717dd259f6da36c7314e8aa0b5059e59133b7c9"
+    },
+    {
+      "path": "analysis/leafgreen-de-rev0-game-title-logo-load.json",
+      "sha256": "0b1ff2a3e69526844a216a74d2597cdfa2e157f1629818c743bb29989c02c52c"
+    },
+    {
+      "path": "analysis/leafgreen-en-rev0-game-title-logo-load.json",
+      "sha256": "7abd1d12e310c5895f9a6e6cbd1230b134e4597be01726634c893b8778b0fa3a"
+    },
+    {
+      "path": "analysis/leafgreen-es-rev0-game-title-logo-load.json",
+      "sha256": "474a97b0c2d9ee7706e3dcc57e5403e6ba83a99fba0c0123de4ea7e3276951c4"
+    },
+    {
+      "path": "analysis/leafgreen-fr-rev0-game-title-logo-load.json",
+      "sha256": "56fb803fee248500b76df165317215af8e9144db10bc2b1d069f1dbfbe2f3237"
+    },
+    {
+      "path": "analysis/leafgreen-it-rev0-game-title-logo-load.json",
+      "sha256": "b85471d186d24869e7480e433d5ae3ebcb1f0f765dbc9e68f3359a216f57fbc7"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

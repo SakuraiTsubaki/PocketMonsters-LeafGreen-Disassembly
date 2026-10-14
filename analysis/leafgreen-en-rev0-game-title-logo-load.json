@@ -1,0 +1,39 @@
+{
+  "asset": {
+    "source_offset": 15382852,
+    "source_pointer": 149600580,
+    "decompressed_length": 16384
+  },
+  "pointer_locations": [
+    494232
+  ],
+  "thumb_references": [
+    {
+      "instruction_offset": 494076,
+      "literal_offset": 494232,
+      "destination_register": 1
+    }
+  ],
+  "raw_bytes_published": false,
+  "background_loads": [
+    {
+      "instruction_offset": 494076,
+      "literal_offset": 494232,
+      "asset_argument_register": 1,
+      "register_immediates": {
+        "r4": 0,
+        "r0": 0,
+        "r2": 0,
+        "r3": 0
+      },
+      "call_offset": 494088,
+      "call_target": 135227472,
+      "loader_sequence_length": 16,
+      "loader_sequence_sha256": "37c3b09ce442c3e4a0bd311a21277b8efcb3bcf9254d9e04e7c93bb58bb7beeb"
+    }
+  ],
+  "schema_version": 1,
+  "source_size": 16777216,
+  "source_sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc",
+  "asset_report": "analysis/leafgreen-en-rev0-game-title-logo.json"
+}
