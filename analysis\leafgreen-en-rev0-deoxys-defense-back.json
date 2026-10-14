@@ -1,0 +1,16 @@
+{
+  "rom_size": 16777216,
+  "rom_sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc",
+  "source_offset": 14917096,
+  "compressed_length": 1526,
+  "compressed_sha256": "021d09dc9466accb81d53489c075833ec5d51fcf837fbd95b46710af200efb68",
+  "decompressed_length": 4096,
+  "decompressed_sha256": "de5a2254b3d9fba115ab66ee7e0a7432c13e02dd70cd31b07d4f3887f490d26b",
+  "tile_count": 128,
+  "tiles_per_row": 16,
+  "format": "gba-bios-lz77-to-4bpp-tiles",
+  "palette": "jasc-pal",
+  "png_sha256": "2e50a8e721440394c0871eb9bc016e7db5da80d2019f7a68949455ba102c5813",
+  "raw_rom_bytes_included": false,
+  "palette_sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
+}
