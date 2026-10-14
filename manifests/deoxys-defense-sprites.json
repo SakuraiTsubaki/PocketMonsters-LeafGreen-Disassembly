@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_group": "leafgreen-jp-deoxys-defense-sprites",
+  "target": {"release": "BPGJ-rev0", "species": 410, "form": "defense", "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"},
+  "reference": {"repository": "pret/pokefirered", "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14"},
+  "outputs": [
+    {"path": "graphics/pokemon/deoxys-normal-jp.pal", "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"},
+    {"path": "graphics/pokemon/deoxys-defense-front-jp.png", "sha256": "13f0f7434eab509aeac4a44091e4b15212240503721133e0063754d949be45a4"},
+    {"path": "graphics/pokemon/deoxys-defense-back-jp.png", "sha256": "2e50a8e721440394c0871eb9bc016e7db5da80d2019f7a68949455ba102c5813"},
+    {"path": "analysis/leafgreen-jp-rev0-deoxys-palette.json", "sha256": "d16e050e11ca5813f56c7fd96fce6b2bed9ea385d1141477282ced830fc63e13"},
+    {"path": "analysis/leafgreen-jp-rev0-deoxys-defense-front.json", "sha256": "9bd1201af06915678619296241334382d051042ee5967df279b1143094e049b2"},
+    {"path": "analysis/leafgreen-jp-rev0-deoxys-defense-back.json", "sha256": "d79981eacd64e7dfd2e4e4d1ad4627c57b86aee7fc5b5ccc6318420aa277b73c"},
+    {"path": "analysis/leafgreen-jp-rev0-deoxys-front-table.json", "sha256": "0c213adcebdffbda0a3f3553173b19af5171a240a5f5f81b15e279543574d46f"},
+    {"path": "analysis/leafgreen-jp-rev0-deoxys-back-table.json", "sha256": "b755b7a07a9dbcdbdb2c4a1f1b9dcf18f5ada30007ecf6d8912782bdace9132f"},
+    {"path": "src/deoxys_species_sprite_tables.asm", "sha256": "c5ea0b2a91a9c832c239c3a48bc8dde10a8ff6335fda27651ccc078dd9819e1d"},
+    {"path": "research/deoxys-defense-sprites.md", "sha256": "a423da080f0c45a5c6d76d35b45a4c3a11cdb76093e4df27013889adf3553f1e"}
+  ],
+  "raw_rom_bytes_included": false
+}
