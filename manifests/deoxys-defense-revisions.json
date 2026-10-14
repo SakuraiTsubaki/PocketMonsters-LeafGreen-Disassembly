@@ -1,0 +1,13 @@
+{
+  "schema_version":1,"asset":"Deoxys Defense Forme remaining revision","releases":["leafgreen-en-rev1"],
+  "outputs":[
+    {"path":"analysis/leafgreen-en-rev1-deoxys-palette.json","sha256":"081a95b788e261291f2210e0a4d5fab9565cd80dffe690365ca752c56c121c39"},
+    {"path":"analysis/leafgreen-en-rev1-deoxys-defense-front.json","sha256":"338f24b3d8fea7dedd3b6cad07f705b0ba69b25866e804ffb56307b1af0896fe"},
+    {"path":"analysis/leafgreen-en-rev1-deoxys-defense-back.json","sha256":"775d8c22f9cfc08163cd5b8f30e9b9e79896a22c2ceff40001795b14f93d66fc"},
+    {"path":"analysis/leafgreen-en-rev1-deoxys-front-table.json","sha256":"4b8f22b387b80ad46a12fcb627a430196638049b90b3165d4bde4e5d4dc12745"},
+    {"path":"analysis/leafgreen-en-rev1-deoxys-back-table.json","sha256":"a866b549862642b58c80bc61bbc427d9bc13c73385279d5d9d138c75dca5f03a"},
+    {"path":"src/deoxys_species_sprite_revisions.asm","sha256":"aceaf55043737dcb61af74131115eff53ca0af6d2aab3dda4205791f0302e5e5"},
+    {"path":"research/deoxys-defense-revisions.md","sha256":"816be6b158b1e409e416fa127bd8c61fa40d1a569799287f62d7687529ceaf4d"},
+    {"path":"tests/test_deoxys_defense_revisions.py","sha256":"cf477d3815dc2a2edc6842b7dea5836217a40b1a444fda5c0ab1b3cca7155fe3"}
+  ],"raw_rom_bytes_included":false
+}
