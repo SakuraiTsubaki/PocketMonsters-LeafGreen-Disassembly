@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "functions": [
+    "Random",
+    "SeedRng"
+  ],
+  "releases": [
+    "leafgreen-jp-rev0",
+    "leafgreen-en-rev0",
+    "leafgreen-en-rev1",
+    "leafgreen-de-rev0",
+    "leafgreen-fr-rev0",
+    "leafgreen-it-rev0",
+    "leafgreen-es-rev0"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/locate_gba_rng.py",
+    "tool_sha256": "e3dbe698aefd7acbe469fae096361c2d965d677c6ef927dbfb08c9b230b43309"
+  },
+  "outputs": [
+    {
+      "path": "src/random.asm",
+      "sha256": "eca15e36c4e585b7007e94d352d2bbea4b13ce3c81aebe547eb71a3dffa0bb9d"
+    },
+    {
+      "path": "analysis/leafgreen-jp-rev0-rng.json",
+      "sha256": "b5a2f7d018b4d819c1142a17284354a4a2539ff86e8d367288e4caa4a915b422"
+    },
+    {
+      "path": "analysis/leafgreen-en-rev0-rng.json",
+      "sha256": "ac0be54a74f01738808d2146fc8b6b56b48d5711916895d7e342eaa4c05d29fb"
+    },
+    {
+      "path": "analysis/leafgreen-en-rev1-rng.json",
+      "sha256": "81981126fe8484c08bce8c84acfbb120d9f13ec128f2e680e9f6fb98eacdfeb5"
+    },
+    {
+      "path": "analysis/leafgreen-de-rev0-rng.json",
+      "sha256": "c73200778e3c3a0be0cb0e7d485f805e3d682a4e39b98ebaf20913252fd4a3fa"
+    },
+    {
+      "path": "analysis/leafgreen-fr-rev0-rng.json",
+      "sha256": "8a2220e647675545856073ec412a7045d4e6e1e86fa783bc005b36025bce5be3"
+    },
+    {
+      "path": "analysis/leafgreen-it-rev0-rng.json",
+      "sha256": "b5fc274ed09a1b8fe0d987f576e688d5623cfbbb320503f73bb8f51eed8c8572"
+    },
+    {
+      "path": "analysis/leafgreen-es-rev0-rng.json",
+      "sha256": "87100671213753b95d8d450a4094057de10f6510488aeeba0df4e65d3f87a41e"
+    },
+    {
+      "path": "research/rng-reconstruction.md",
+      "sha256": "0b71e98c3ab67f620753380493bcb3182963b14ca0eb4fb6711ebcefd5a26c0d"
+    },
+    {
+      "path": "tests/test_rng_reconstruction.py",
+      "sha256": "96ec4e9825802a749787d896a6c493f08fe735210293635e5b2a4a77c2f40335"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
