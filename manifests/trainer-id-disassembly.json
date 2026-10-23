@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon LeafGreen",
+  "axis": "Disassembly",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/locate_gba_trainer_id_helpers.py",
+    "tool_sha256": "3946d9310df307e516f899fea1854eedadaf85aaab839c5e5fa74edcedf40e0c"
+  },
+  "outputs": [
+    {
+      "path": "src/trainer_id_helpers.s",
+      "sha256": "34a85bf599c23bec6670c2c54847cf9a7bf6b9259e9cb7eaa05397d5d1a6da44"
+    },
+    {
+      "path": "analysis/leafgreen-global-release-catalog.json",
+      "sha256": "2b39edb981133b7a6b4da03053a37d448c5291d7b7ec860f2571bf8c25e3cfe9"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "6bf05df8e82cec7aee2c23140c47d7f52082a4b52eff24753433e4f55e9e87da"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-settrainerid-cfg.json",
+      "sha256": "2e393ac657a9b7f8353d2388d099f7b7915234877ed43f0f27d5d3fe979c2fff"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-copytrainerid-cfg.json",
+      "sha256": "c25bc7bc36422731930ab850e49187212ac68604cc79cb157931fccc6d993a9f"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "91d5ef084bec4ed11eae4d57d452bacdf750bc80765d12347f02da5eb76b8764"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-settrainerid-cfg.json",
+      "sha256": "8429b0a01c238a5ba26e748c1aef24a1936813ee19a631087b2a6448e8bf0945"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-copytrainerid-cfg.json",
+      "sha256": "5a3ff28411fc2dbe0d44228c2ec5245a9ece37b0d1771195d9a0a42d1c9ad016"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-trainer-id-disassembly.json",
+      "sha256": "67e137587e02fcb41992d1b972d14fa843a2e8c0b27b4e1d59ff979291afa6a5"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-settrainerid-cfg.json",
+      "sha256": "eebfeff2bc001433fc4b273fdc1c0374f4734816a15eb3d7850a8b9509ed3964"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-copytrainerid-cfg.json",
+      "sha256": "995bea3de1f702167cc3c59f75f1ee845dc1e401c661e48417d054d5c79d33ec"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "7a00100f181cc4133889ea0d768c68a1b0aa110478f450d8660d8e346a580e05"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-settrainerid-cfg.json",
+      "sha256": "426c5f34c9368060ae6211ebd70ebe73af01068460b01cb6b508879365b58856"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-copytrainerid-cfg.json",
+      "sha256": "fd171b50e44dff8895af7deac5e8cd64e531a0a63f46052bb6f76f50057b7768"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "0f7a7668ec2adfcfd009ba1792117fb55caee82661bbc559a640726b242f0861"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-settrainerid-cfg.json",
+      "sha256": "87b3a038b947fe414eb1d3fe11e7980e77ec93923422ad005c6c522cf1e630b5"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-copytrainerid-cfg.json",
+      "sha256": "8acab4d6efd2562b249bb61a4c45a06a711451ab88f3421f2864e9558f4391b6"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "15a7bb6c2e99b4e786b2643f64645377765d12054aa0a6ac00427065c4288433"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-settrainerid-cfg.json",
+      "sha256": "900b78df41478b02b2c25ee151586f2ee8aa4dcbdae8a5a5fe35e17acc34e126"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-copytrainerid-cfg.json",
+      "sha256": "3edcc0f914af237aa190f4feaca707aad0e5c8cd7a38500e0c06aabb20e636ca"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "55885ac60dfa4e1a9381046269692ab93b48bea604c678c6c260efa8c11e00c4"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-settrainerid-cfg.json",
+      "sha256": "37e77e189e22dd3410a675feb47bf2d369b889e40074f656b8e076ee20455b91"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-copytrainerid-cfg.json",
+      "sha256": "af2f3c5c24061e8621c7874754e1ad125be51ca60c4572b78ce2162182037644"
+    },
+    {
+      "path": "analysis/trainer-id-disassembly-summary.json",
+      "sha256": "90fdd4cbdc2db20b421021ac6d7f190a3948382beb78d41ebf60dd4a9ede391e"
+    },
+    {
+      "path": "research/trainer-id-disassembly.md",
+      "sha256": "d60bb2c5db5bdab9d9499dda063a97d5c9a5ef5d6a145ed4952248c04d27937c"
+    },
+    {
+      "path": "tests/test_trainer_id_disassembly.py",
+      "sha256": "0a78c2e5a02cdbd8aa108bf252a822d45e1fb0ce1e34cf364985661b2f9468d1"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
