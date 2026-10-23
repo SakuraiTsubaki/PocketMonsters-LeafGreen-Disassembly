@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon LeafGreen",
+  "asset": "GbaHeaderNintendoLogo",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_header_logo.py",
+    "tool_sha256": "eb2e5b89a999e23e7f58721a2fd62c3ce667cba58406e2ee7e17617750a1aa41",
+    "decoder": "tools/extract_gba_header_logo.py",
+    "decoder_sha256": "5f12c4e7e40aa81ff2d7a71cea2b4b59d0b2a79663bb22b07a3f62d62ee55245"
+  },
+  "outputs": [
+    {
+      "path": "graphics/header/nintendo-logo-jp.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "analysis/leafgreen-global-release-catalog.json",
+      "sha256": "2b39edb981133b7a6b4da03053a37d448c5291d7b7ec860f2571bf8c25e3cfe9"
+    },
+    {
+      "path": "analysis/leafgreen-jp-header-logo.json",
+      "sha256": "f4bc0bb8d97d3e1c2d2aa9582a86265d636caac59ef9afa3c5d80110a53af1a5"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-header-logo.json",
+      "sha256": "62511fcc5bc1bfc36bdfc62fdcc435f067a1a05726e8244503ec638c211b0760"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-header-logo.json",
+      "sha256": "2d7d0f2a6b1467d220a61be48a8085d00607c00fc373b840fa794ba64222eaaa"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-header-logo.json",
+      "sha256": "904d12e348f25956d75c4365b67bad3baa796159fbec0f1e7ac3d6b9a0e735d6"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-header-logo.json",
+      "sha256": "54737c5e9f2128e0e998878e84a72f922450c70456e10128561c8fcdfcdc937b"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-header-logo.json",
+      "sha256": "aa158cbc68eb6f8b1a467b6ecc70138d6178d6a468278b92878ea8f84e44c3a3"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-header-logo.json",
+      "sha256": "3eaf4f960ef0d5484031b9ff1bda6e21f354a9f1819b5ea1d51d1e1f4cc5c2d8"
+    },
+    {
+      "path": "analysis/header-logo-catalog-summary.json",
+      "sha256": "8ce154bd1e0aff2241095b4ae98f4aaff6d9a56d3dce0fd9316dde2a687172e1"
+    },
+    {
+      "path": "research/header-logo-catalog.md",
+      "sha256": "4ea25c78843942475946f183f477bb999b71f9d8b75835ad2f5a5c338d6bab21"
+    },
+    {
+      "path": "tests/test_header_logo_catalog.py",
+      "sha256": "fdcce15dc8a11d83a3d43ea8fcd48cfbaeeacc1c6508ed3d85f02857383f4313"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
