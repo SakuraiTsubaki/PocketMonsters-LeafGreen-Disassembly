@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "axis": "disassembly",
+  "game": "Pokemon LeafGreen",
+  "function": "EnableVCountIntrAtLine150",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "source": "src/enable_vcount_intr_at_line150.s",
+  "releases": [
+    {
+      "id": "bpg-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
+      "origin_reference": true,
+      "address": "0x08000598",
+      "code_sha256": "a59dd56ae94fedf4a5d5251c3e34289823fdfc517ad6c0ef630832a521dcf8e6",
+      "calls": [
+        {
+          "name": "GetGpuReg",
+          "source": "0x0800059C",
+          "target": "0x08000AC4"
+        },
+        {
+          "name": "SetGpuReg",
+          "source": "0x080005B2",
+          "target": "0x08000A38"
+        },
+        {
+          "name": "EnableInterrupts",
+          "source": "0x080005B8",
+          "target": "0x08000B68"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpg-j-rev0-retail-enable-vcount-intr-at-line150-map.json",
+        "cfg": "analysis/bpg-j-rev0-retail-enable-vcount-intr-at-line150-cfg.json"
+      }
+    },
+    {
+      "id": "bpg-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc",
+      "origin_reference": false,
+      "address": "0x08000598",
+      "code_sha256": "a59dd56ae94fedf4a5d5251c3e34289823fdfc517ad6c0ef630832a521dcf8e6",
+      "calls": [
+        {
+          "name": "GetGpuReg",
+          "source": "0x0800059C",
+          "target": "0x08000AC4"
+        },
+        {
+          "name": "SetGpuReg",
+          "source": "0x080005B2",
+          "target": "0x08000A38"
+        },
+        {
+          "name": "EnableInterrupts",
+          "source": "0x080005B8",
+          "target": "0x08000B68"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpg-e-rev0-retail-enable-vcount-intr-at-line150-map.json",
+        "cfg": "analysis/bpg-e-rev0-retail-enable-vcount-intr-at-line150-cfg.json"
+      }
+    },
+    {
+      "id": "bpg-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "2f978f635b9593f6ca26ec42481c53a6b39f6cddd894ad5c062c1419fac58825",
+      "origin_reference": false,
+      "address": "0x080005AC",
+      "code_sha256": "a59dd56ae94fedf4a5d5251c3e34289823fdfc517ad6c0ef630832a521dcf8e6",
+      "calls": [
+        {
+          "name": "GetGpuReg",
+          "source": "0x080005B0",
+          "target": "0x08000AD8"
+        },
+        {
+          "name": "SetGpuReg",
+          "source": "0x080005C6",
+          "target": "0x08000A4C"
+        },
+        {
+          "name": "EnableInterrupts",
+          "source": "0x080005CC",
+          "target": "0x08000B7C"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpg-e-rev1-retail-enable-vcount-intr-at-line150-map.json",
+        "cfg": "analysis/bpg-e-rev1-retail-enable-vcount-intr-at-line150-cfg.json"
+      }
+    },
+    {
+      "id": "bpg-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2",
+      "origin_reference": false,
+      "address": "0x080005A8",
+      "code_sha256": "a59dd56ae94fedf4a5d5251c3e34289823fdfc517ad6c0ef630832a521dcf8e6",
+      "calls": [
+        {
+          "name": "GetGpuReg",
+          "source": "0x080005AC",
+          "target": "0x08000AD4"
+        },
+        {
+          "name": "SetGpuReg",
+          "source": "0x080005C2",
+          "target": "0x08000A48"
+        },
+        {
+          "name": "EnableInterrupts",
+          "source": "0x080005C8",
+          "target": "0x08000B78"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpg-d-rev0-retail-enable-vcount-intr-at-line150-map.json",
+        "cfg": "analysis/bpg-d-rev0-retail-enable-vcount-intr-at-line150-cfg.json"
+      }
+    },
+    {
+      "id": "bpg-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "cc0fa93f4631d0814afcd5a273edf28f2876e126e8ef0df4dd39dd6f36e53ed3",
+      "origin_reference": false,
+      "address": "0x08000594",
+      "code_sha256": "a59dd56ae94fedf4a5d5251c3e34289823fdfc517ad6c0ef630832a521dcf8e6",
+      "calls": [
+        {
+          "name": "GetGpuReg",
+          "source": "0x08000598",
+          "target": "0x08000AC0"
+        },
+        {
+          "name": "SetGpuReg",
+          "source": "0x080005AE",
+          "target": "0x08000A34"
+        },
+        {
+          "name": "EnableInterrupts",
+          "source": "0x080005B4",
+          "target": "0x08000B64"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpg-f-rev0-retail-enable-vcount-intr-at-line150-map.json",
+        "cfg": "analysis/bpg-f-rev0-retail-enable-vcount-intr-at-line150-cfg.json"
+      }
+    },
+    {
+      "id": "bpg-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+      "origin_reference": false,
+      "address": "0x080005A8",
+      "code_sha256": "a59dd56ae94fedf4a5d5251c3e34289823fdfc517ad6c0ef630832a521dcf8e6",
+      "calls": [
+        {
+          "name": "GetGpuReg",
+          "source": "0x080005AC",
+          "target": "0x08000AD4"
+        },
+        {
+          "name": "SetGpuReg",
+          "source": "0x080005C2",
+          "target": "0x08000A48"
+        },
+        {
+          "name": "EnableInterrupts",
+          "source": "0x080005C8",
+          "target": "0x08000B78"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpg-i-rev0-retail-enable-vcount-intr-at-line150-map.json",
+        "cfg": "analysis/bpg-i-rev0-retail-enable-vcount-intr-at-line150-cfg.json"
+      }
+    },
+    {
+      "id": "bpg-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48",
+      "origin_reference": false,
+      "address": "0x08000594",
+      "code_sha256": "a59dd56ae94fedf4a5d5251c3e34289823fdfc517ad6c0ef630832a521dcf8e6",
+      "calls": [
+        {
+          "name": "GetGpuReg",
+          "source": "0x08000598",
+          "target": "0x08000AC0"
+        },
+        {
+          "name": "SetGpuReg",
+          "source": "0x080005AE",
+          "target": "0x08000A34"
+        },
+        {
+          "name": "EnableInterrupts",
+          "source": "0x080005B4",
+          "target": "0x08000B64"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpg-s-rev0-retail-enable-vcount-intr-at-line150-map.json",
+        "cfg": "analysis/bpg-s-rev0-retail-enable-vcount-intr-at-line150-cfg.json"
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

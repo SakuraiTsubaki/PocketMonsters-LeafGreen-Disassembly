@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "axis": "disassembly",
+  "game": "Pokemon LeafGreen",
+  "function": "EnableVCountIntrAtLine150",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/locate_gba_vcount_intr.py",
+    "tool_sha256": "f32464560dc67deb502eb6c069386626d85ff66d51c944c9a5bb100ab13f9807"
+  },
+  "outputs": [
+    {
+      "path": "src/enable_vcount_intr_at_line150.s",
+      "sha256": "cbf66a7151a4349b19c3049a9b285a3d96a71524b7ee7c48195c3eaccf7ceeb6"
+    },
+    {
+      "path": "analysis/leafgreen-global-release-catalog.json",
+      "sha256": "2b39edb981133b7a6b4da03053a37d448c5291d7b7ec860f2571bf8c25e3cfe9"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "6ff4ec8d82ae8165e1da614e685569af9aa690c53ae019fd5ea507e69a31c1c7"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "47f608f4cfe808870047fc1f691bbb258eafcf89dbef53ef7c1a3aac9ba31b21"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "0d3af56cfdb1e293892c2bd762aa8e67fd3bc2504cedc77010d3b0fd3cc31cef"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "f24e8c08a3a93a3999f4d2e8453a629cf01682d5211f640394372c0c2a2d13cc"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "2ccbb4bcd533d3f68ddf235c3c4918b195c7a26c8c1474d64f957e2711fc7345"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "58a4d93e23fb142e5cb68dfd3b14d757662e82f6fa03842cc0b5b554e5adc6f2"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "31118713407522a2909f8fb4966ecd6c928bb0f19e3b99caca7420fce4c6a752"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "1d966828a3230fc0bec7a3f7c6a05b078816a3958bc13dd9354c2c25b124d294"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "17fc9a3ce743f7d31d67f33a4bdda09c21e1e9720902946736e885a7e2db00c9"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "5ca8fa054c9ccccfc14d8490da27f4742145bdf0a99010dbe970391cb72a2bea"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "8ffbfdea248893d17050d02ca175dba1df2c2f358fe8624f77679b760c6de718"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "8bfd0cbf11406764e17325de0e66c906c7f0c7ae2905520bbca69571b22f8955"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "abe2fc32202ee6434ac1aabcccee04a95735fb018affdded4b1b4cad8da03326"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "d7470f1650828c2c7ae7e8a4f1516e9a01f74e2306db93435d4f469dd5975274"
+    },
+    {
+      "path": "analysis/enable-vcount-intr-at-line150-disassembly-summary.json",
+      "sha256": "1ca67b7723dcc83f801462602bbe920855339a35a82e80dfb8c0384e538ef489"
+    },
+    {
+      "path": "research/enable-vcount-intr-at-line150-disassembly.md",
+      "sha256": "02f5f62629ffdbdc9b974342866ecb4b9b3c9f4a47007a81a10ecacf26b6cde6"
+    },
+    {
+      "path": "tests/test_enable_vcount_intr_disassembly.py",
+      "sha256": "27e94b8c4a0a67fd35cf744a545da0652df7dbc7b6fc0a3a38a2f27197bf6589"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
