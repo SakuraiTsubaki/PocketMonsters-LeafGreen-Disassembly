@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon LeafGreen",
+  "asset": "JASC palette swatch",
+  "language": "Spanish",
+  "origin_reference": false,
+  "source": {
+    "path": "graphics/title/game-title-logo-es.pal",
+    "sha256": "91dae9191d32b7b1ac0fb9ed43dd35777c8c685c5a2f4c0da5770c0020022e60",
+    "format": "JASC-PAL 0100",
+    "color_count": 256,
+    "provenance_manifests": [
+      {
+        "path": "manifests/game-title-logos-global.json",
+        "sha256": "334644de0f6956a5b78320246b00b525e6b9826c9109223314ce34257843263d"
+      }
+    ]
+  },
+  "output": {
+    "path": "graphics/title/game-title-logo-es-swatch.png",
+    "sha256": "4c85a7b7e12f3695195f617e851a3f57977346121971494f7e17d685c5129cdc",
+    "format": "PNG RGB8",
+    "width": 256,
+    "height": 256,
+    "columns": 16,
+    "cell_size": 16
+  },
+  "raw_rom_bytes_included": false
+}

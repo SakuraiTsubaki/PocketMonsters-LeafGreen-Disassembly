@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon LeafGreen",
+  "asset": "JASC palette swatches",
+  "palette_count": 11,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/render_jasc_palette_catalog.py",
+    "tool_sha256": "69b37972c873fd5b07c26ed0a2282ec5df9dfddc3dd0b77b712e62f67004e306"
+  },
+  "outputs": [
+    {
+      "path": "graphics/pokemon/deoxys-normal-jp.pal",
+      "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-jp-swatch.png",
+      "sha256": "eb02b518552821e787ac6953d94ad781081257b944370785ea407321e3d7f47c"
+    },
+    {
+      "path": "analysis/palette-swatches/graphics-pokemon-deoxys-normal-jp.json",
+      "sha256": "480624f634d600ec46369147076f090055262b0d924377c496850eedb67be79e"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-en.pal",
+      "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-en-swatch.png",
+      "sha256": "eb02b518552821e787ac6953d94ad781081257b944370785ea407321e3d7f47c"
+    },
+    {
+      "path": "analysis/palette-swatches/graphics-pokemon-deoxys-normal-en.json",
+      "sha256": "7d957e0f3130163ed00a8ff9f27f0a43f4c04af53c3b15ecfe5173978f235f9f"
+    },
+    {
+      "path": "graphics/title/game-title-logo-en.pal",
+      "sha256": "8ddd05bd076064141f146b6d2e8e5919fb9f35369abedb8d111d37d019901081"
+    },
+    {
+      "path": "graphics/title/game-title-logo-en-swatch.png",
+      "sha256": "7f079bcbcf71ed4e5f284560809a598b74584278f413077b9c82e39ed9e1e170"
+    },
+    {
+      "path": "analysis/palette-swatches/graphics-title-game-title-logo-en.json",
+      "sha256": "2f4c68afd7ae0cf1747704c7640530d177a1245ba4cc2159b24a1855d8b045e6"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-de.pal",
+      "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-de-swatch.png",
+      "sha256": "eb02b518552821e787ac6953d94ad781081257b944370785ea407321e3d7f47c"
+    },
+    {
+      "path": "analysis/palette-swatches/graphics-pokemon-deoxys-normal-de.json",
+      "sha256": "470460afe142b0cd91c4547854543eb1c37b78053117d612579199bc6c6b94f1"
+    },
+    {
+      "path": "graphics/title/game-title-logo-de.pal",
+      "sha256": "4ce41ef11072152f78eede9ff77f23ae51caf1455a85cd7f21951a55e7e8bf6a"
+    },
+    {
+      "path": "graphics/title/game-title-logo-de-swatch.png",
+      "sha256": "373cf24892f75a39934e842f2ed7a1e8f358fac9c691f334d535cc72f6ced3ac"
+    },
+    {
+      "path": "analysis/palette-swatches/graphics-title-game-title-logo-de.json",
+      "sha256": "9f3134ae27d1652709f422f24bc9accc7420ae160c4e4334e7ebd0e413f6ddac"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-fr.pal",
+      "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-fr-swatch.png",
+      "sha256": "eb02b518552821e787ac6953d94ad781081257b944370785ea407321e3d7f47c"
+    },
+    {
+      "path": "analysis/palette-swatches/graphics-pokemon-deoxys-normal-fr.json",
+      "sha256": "17203ae03486915a47d6fa71a1fa0f06a7dca78acb02d4f0f830ce03f4d6ef95"
+    },
+    {
+      "path": "graphics/title/game-title-logo-fr.pal",
+      "sha256": "ac18daafc02a72e1be8fb2d6ecf5e5e7c6fb78a623846fb2f5337f9067f48be4"
+    },
+    {
+      "path": "graphics/title/game-title-logo-fr-swatch.png",
+      "sha256": "8890743d381019e635cf808339dc78428ba800dac59a4fdc81de586388b0007b"
+    },
+    {
+      "path": "analysis/palette-swatches/graphics-title-game-title-logo-fr.json",
+      "sha256": "4401d1eb4907fc4c5baca1b97519edb468096882c52f762e3520eebe1d1f643e"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-it.pal",
+      "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-it-swatch.png",
+      "sha256": "eb02b518552821e787ac6953d94ad781081257b944370785ea407321e3d7f47c"
+    },
+    {
+      "path": "analysis/palette-swatches/graphics-pokemon-deoxys-normal-it.json",
+      "sha256": "ce439806318d304300a67f662293f084f9621736b746950c27db06f1ef5573cf"
+    },
+    {
+      "path": "graphics/title/game-title-logo-it.pal",
+      "sha256": "f77ef2e787ec8761057bd3f3d3559b26bcd10d5fe5c784bde1a40cc7108a687a"
+    },
+    {
+      "path": "graphics/title/game-title-logo-it-swatch.png",
+      "sha256": "084c81f4e94d8a85caff8980bb1a9b8f76c9b7c5740f7f9f43316a73fed0062b"
+    },
+    {
+      "path": "analysis/palette-swatches/graphics-title-game-title-logo-it.json",
+      "sha256": "e479305ed5874b3d29d00f2ab49d76960acfe80db40808539fdea3d01c3ad6c7"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-es.pal",
+      "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-es-swatch.png",
+      "sha256": "eb02b518552821e787ac6953d94ad781081257b944370785ea407321e3d7f47c"
+    },
+    {
+      "path": "analysis/palette-swatches/graphics-pokemon-deoxys-normal-es.json",
+      "sha256": "a9e8a0ba4330e71b611fbb3f71824a87e235bc2a00aa1fdb646db621587a436f"
+    },
+    {
+      "path": "graphics/title/game-title-logo-es.pal",
+      "sha256": "91dae9191d32b7b1ac0fb9ed43dd35777c8c685c5a2f4c0da5770c0020022e60"
+    },
+    {
+      "path": "graphics/title/game-title-logo-es-swatch.png",
+      "sha256": "4c85a7b7e12f3695195f617e851a3f57977346121971494f7e17d685c5129cdc"
+    },
+    {
+      "path": "analysis/palette-swatches/graphics-title-game-title-logo-es.json",
+      "sha256": "311659e191e06ca8a52f150fd7fe98890decceb4cca9c040fd6fa65784160571"
+    },
+    {
+      "path": "analysis/palette-swatch-catalog.json",
+      "sha256": "a55435af77a2d1754fac8f5fdebf376425315e181363eb40d5d5cbe18c4c5d9f"
+    },
+    {
+      "path": "research/palette-swatches.md",
+      "sha256": "514af3e81f65663456156395992a2eeffaeb95995922aff98f0f4ab69f85df28"
+    },
+    {
+      "path": "tests/test_palette_swatches.py",
+      "sha256": "9db7fda240714a394ca09ffe1ad58b9521b5775ba604cd6b1237b8c6ed196b03"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
