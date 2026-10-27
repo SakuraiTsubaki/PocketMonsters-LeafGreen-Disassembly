@@ -1,1 +1,59 @@
-{"schema_version":1,"id":"leafgreen-jp-repeated-callback-cfg","input":{"release":"BPGJ-rev0","sha256":"2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2","start_offset":"0x4B0","max_span":"0x100"},"output":{"path":"analysis/leafgreen-jp-repeated-callback-cfg.json","sha256":"55393977751cd8e4738bf36c06b485298da2dadaf0443d3094d107c6bf24b405"},"raw_rom_bytes_included":false}
+{
+  "schema_version": 1,
+  "game": "LeafGreen",
+  "evidence_kind": "repeated-callback-cfg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_repeated_callback_cfg.py",
+    "tool_sha256": "f1dff748ed4465a847ead04997294002bf1c2b36d4321ee122885301303edeb4"
+  },
+  "outputs": [
+    {
+      "path": "analysis/leafgreen-global-release-catalog.json",
+      "sha256": "2b39edb981133b7a6b4da03053a37d448c5291d7b7ec860f2571bf8c25e3cfe9"
+    },
+    {
+      "path": "analysis/repeated-callback-cfg-summary.json",
+      "sha256": "4f282da3dfb0c8310193421cdc5013c494ab86facaee5f613fae483530d4824c"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "7701191fbf8c57de61eec267f72ba7d6f49aff8288957e30fdb027d53e7e0cb3"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "fd0bde9e27082c71c4e46f0b9d192a9ba1b044608cd0c429c1529a914a76730a"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-repeated-callback-cfg-map.json",
+      "sha256": "83f77b87794f84ab114a2b8ef6e97a9e9df1adb94517efcfd98959f73c8e8c59"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "d3c34cec6857561d6b5f42f9a105c1cc04c0fa8a129248d92a74851590e15d5c"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "223e521a130d15acf44bf35a43f05e7cdfdcdb646faac9546d3a7e8617016c67"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "11ac0df6ca2736bc04f8aaf0d2b2f1b5f7c4835e7ef98c17d708cd7a5a4575ad"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-repeated-callback-cfg-map.json",
+      "sha256": "fa2f0bd239a88ae07154f25e6e45969def8c938527333102c731b1930e872254"
+    },
+    {
+      "path": "research/repeated-callback-cfg.md",
+      "sha256": "1b1ad899a640c1c7f74a99020d166de0d85cd508ee25b87e42120506a07eebfb"
+    },
+    {
+      "path": "tests/test_repeated_callback_cfg.py",
+      "sha256": "56f4973c637726e48c69650cad4071cb286732e217c0f1773bbf6773ae7d3756"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

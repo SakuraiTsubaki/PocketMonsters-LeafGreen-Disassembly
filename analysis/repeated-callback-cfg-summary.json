@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "LeafGreen",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "discovery_rule": "unique target called exactly three times by thumb_entry_reachable",
+  "releases": [
+    {
+      "id": "bpg-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
+      "origin_reference": true,
+      "target_address": "0x080004B0",
+      "instruction_halfwords": 10,
+      "direct_call_count": 2,
+      "evidence": "analysis/bpg-j-rev0-retail-repeated-callback-cfg-map.json"
+    },
+    {
+      "id": "bpg-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc",
+      "origin_reference": false,
+      "target_address": "0x080004B0",
+      "instruction_halfwords": 10,
+      "direct_call_count": 2,
+      "evidence": "analysis/bpg-e-rev0-retail-repeated-callback-cfg-map.json"
+    },
+    {
+      "id": "bpg-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "2f978f635b9593f6ca26ec42481c53a6b39f6cddd894ad5c062c1419fac58825",
+      "origin_reference": false,
+      "target_address": "0x080004C4",
+      "instruction_halfwords": 10,
+      "direct_call_count": 2,
+      "evidence": "analysis/bpg-e-rev1-retail-repeated-callback-cfg-map.json"
+    },
+    {
+      "id": "bpg-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2",
+      "origin_reference": false,
+      "target_address": "0x080004C0",
+      "instruction_halfwords": 10,
+      "direct_call_count": 2,
+      "evidence": "analysis/bpg-d-rev0-retail-repeated-callback-cfg-map.json"
+    },
+    {
+      "id": "bpg-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "cc0fa93f4631d0814afcd5a273edf28f2876e126e8ef0df4dd39dd6f36e53ed3",
+      "origin_reference": false,
+      "target_address": "0x080004AC",
+      "instruction_halfwords": 10,
+      "direct_call_count": 2,
+      "evidence": "analysis/bpg-f-rev0-retail-repeated-callback-cfg-map.json"
+    },
+    {
+      "id": "bpg-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+      "origin_reference": false,
+      "target_address": "0x080004C0",
+      "instruction_halfwords": 10,
+      "direct_call_count": 2,
+      "evidence": "analysis/bpg-i-rev0-retail-repeated-callback-cfg-map.json"
+    },
+    {
+      "id": "bpg-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48",
+      "origin_reference": false,
+      "target_address": "0x080004AC",
+      "instruction_halfwords": 10,
+      "direct_call_count": 2,
+      "evidence": "analysis/bpg-s-rev0-retail-repeated-callback-cfg-map.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
