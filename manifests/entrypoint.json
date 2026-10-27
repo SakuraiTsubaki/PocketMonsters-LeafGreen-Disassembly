@@ -1,2 +1,63 @@
-{"schema_version":1,"id":"leafgreen-jp-rev0-entrypoint","generator":{"repository":"SakuraiTsubaki/Disassembly","tool":"tools/disassemble_gba_entry.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2","offset":0,"length":4}],"outputs":[{"path":"analysis/leafgreen-jp-rev0-entrypoint.json","sha256":"93aaea8139bd370a4dfd8b7498defd0d21e87a70222ac6b2390431f981341c63"},{"path":"src/rom_entry.s","sha256":"01628f1418cdec5232cdc7b8f761a03bd6dbae2ccb58d4bf5f44333912498966"}]}
-
+{
+  "schema_version": 1,
+  "game": "LeafGreen",
+  "evidence_kind": "entrypoint",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_entry_bootstrap.py",
+    "tool_sha256": "34cd25fe3fe0624e80b3d3f3b82e38a273f27dfe2b7781c2a4780aa657c27986"
+  },
+  "outputs": [
+    {
+      "path": "analysis/leafgreen-global-release-catalog.json",
+      "sha256": "2b39edb981133b7a6b4da03053a37d448c5291d7b7ec860f2571bf8c25e3cfe9"
+    },
+    {
+      "path": "src/rom_entry.s",
+      "sha256": "27a30e1068c28234649b61369463438d58eb4642c4e3c83261ec12942621888e"
+    },
+    {
+      "path": "analysis/entry-bootstrap-disassembly-summary.json",
+      "sha256": "aea15dd6036d72eae9e2b392a1ec8fd21f637ad6bef8b826843252150886833a"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-entrypoint-map.json",
+      "sha256": "df532ded545814aead3dd0bbc1beeeb27e987e750774ba83248f60adcec93324"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-entrypoint-map.json",
+      "sha256": "7f44211cdc34639589d6f16083bfd69ee8d2bc0fd6020b0d86f0b053478a0397"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-entrypoint-map.json",
+      "sha256": "d97175865b418ec357f4419c8a350e6c135f5dcba1b5ddd8ef47bc55eaa2ce2a"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-entrypoint-map.json",
+      "sha256": "baf2ddbff3fd6bc51dcb0edad07ee5a4fa9ea5c5e2f7a3b818250d38162e068d"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-entrypoint-map.json",
+      "sha256": "d6550a6cfd934217b29dbc913871be24b06200d6c2f40b3d1b90fd115ee5f8ab"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-entrypoint-map.json",
+      "sha256": "26d54c8d0afd899e5a1492fec73bbad3386dcc6d76a1bfb8f9fae14b98506de7"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-entrypoint-map.json",
+      "sha256": "84fd9f5a5e946b2aa3c90efbcb6ca934c12c7f97ab87c1beaaa6e93bd06e9e4c"
+    },
+    {
+      "path": "research/entrypoint-reconstruction.md",
+      "sha256": "8cb5b45fc4f21b8629c5af0a87eeaeb0c8874df288f3f67b872ad3add1bece11"
+    },
+    {
+      "path": "tests/test_entrypoint.py",
+      "sha256": "ef47231fd98bebad2e5825e79932fe7245c86d85a7c082841e2b6ca75fa5209a"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

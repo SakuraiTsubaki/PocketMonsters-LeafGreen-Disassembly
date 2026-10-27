@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpg-i-rev0-retail",
+    "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076"
+  },
+  "origin_reference": false,
+  "raw_rom_bytes_included": false,
+  "source": "src/thumb_entry_reachable.s",
+  "function": {
+    "name": "thumb_entry_reachable",
+    "address": "0x080003A4",
+    "range_end_exclusive": "0x080004BC",
+    "nonreturning": true,
+    "rom_code_range": {
+      "start_offset": 932,
+      "end_offset_exclusive": 1212,
+      "length": 280,
+      "sha256": "61da5cd866b9769cde2421671ad10ee446b9193da2f861c94b43a1027ed4e393",
+      "raw_bytes_published": false
+    }
+  },
+  "control_flow": {
+    "instruction_halfwords": 121,
+    "edge_count": 14,
+    "edge_kinds": {
+      "branch": 2,
+      "conditional-fallthrough": 6,
+      "conditional-taken": 6
+    },
+    "direct_call_count": 29,
+    "return_count": 0,
+    "loop_back_edge": {
+      "source": "0x080004BA",
+      "target": "0x08000424"
+    },
+    "canonical_instruction_bytes_sha256": "83adf41508ef77ad1af9e65949c0e0a2904ec3422cfcc93bf3f4c52bbfcfc537",
+    "raw_halfwords_omitted": true
+  }
+}

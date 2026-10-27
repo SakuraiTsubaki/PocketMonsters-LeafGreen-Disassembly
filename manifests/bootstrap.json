@@ -1,2 +1,63 @@
-{"schema_version":1,"id":"leafgreen-jp-rev0-bootstrap","generator":{"repository":"SakuraiTsubaki/Disassembly","tool":"tools/disassemble_gba_bootstrap.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2","start_address":"0x08000204","instruction_count":12,"instruction_bytes_sha256":"d351dac18b97db56c30ec6b71463a08edde9480d27fb2c48bdda135efec937e6"}],"outputs":[{"path":"analysis/leafgreen-jp-rev0-bootstrap.json","sha256":"965714b5c5533ad2361beda692b65276104211586eb037e55dde30699f375923"},{"path":"src/rom_bootstrap.s","sha256":"bb67206792112d3cbe31ea347cc8de4ad2199e1273c32b095c235bc29f218c49"}]}
-
+{
+  "schema_version": 1,
+  "game": "LeafGreen",
+  "evidence_kind": "bootstrap",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_entry_bootstrap.py",
+    "tool_sha256": "34cd25fe3fe0624e80b3d3f3b82e38a273f27dfe2b7781c2a4780aa657c27986"
+  },
+  "outputs": [
+    {
+      "path": "analysis/leafgreen-global-release-catalog.json",
+      "sha256": "2b39edb981133b7a6b4da03053a37d448c5291d7b7ec860f2571bf8c25e3cfe9"
+    },
+    {
+      "path": "src/rom_bootstrap.s",
+      "sha256": "afc1df2c94de8fcc8017e76c4c22d282d4aedaf0784b1753741eba192135c5c9"
+    },
+    {
+      "path": "analysis/entry-bootstrap-disassembly-summary.json",
+      "sha256": "aea15dd6036d72eae9e2b392a1ec8fd21f637ad6bef8b826843252150886833a"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-bootstrap-map.json",
+      "sha256": "2f310fc805bcf1c0ac8b02dcd43f5585a4e16648a535255e0b914a35a7b1deb2"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-bootstrap-map.json",
+      "sha256": "da72cb974c1d3787a94baf9f51a902f12106f8271665a36b73e4c40807d7a379"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-bootstrap-map.json",
+      "sha256": "c9bc24d99feeb0982c8a974fe968c229217597334e56af7f4352da861d0282ae"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-bootstrap-map.json",
+      "sha256": "505cfc9f1ce4b082581d1eb4afa7451eb0bb9f0701b42bd3a2ff883351d2d825"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-bootstrap-map.json",
+      "sha256": "d6c1cacc634e392a2a279bc9394cd89c1821ab87b3f39a21d50cecad5c4ac261"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-bootstrap-map.json",
+      "sha256": "21d9b05ded27058d59c4017c4652a12726f0304cc8d7e117466ebcad25482937"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-bootstrap-map.json",
+      "sha256": "2581b76b7bfd0ee61324bca518989df2911b27f289cfbdeac0c2c9286ae63c90"
+    },
+    {
+      "path": "research/bootstrap-transition.md",
+      "sha256": "8f0c53d8829b560eb8f10c4372be358e687896ea6af38490c6003b7bef565093"
+    },
+    {
+      "path": "tests/test_bootstrap.py",
+      "sha256": "aa605aa26f3c66cec97b2a01bbfd05f49ba9c62d9c60ce10d1245259f8c5844b"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

@@ -1,26 +1,59 @@
 {
   "schema_version": 1,
-  "id": "leafgreen-jp-rev0-thumb-cfg",
+  "game": "LeafGreen",
+  "evidence_kind": "thumb-cfg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
   "generator": {
     "repository": "SakuraiTsubaki/Disassembly",
-    "tool": "tools/disassemble_thumb_cfg.py",
-    "version": "1.0.0"
+    "tool": "tools/catalog_gba_entry_bootstrap.py",
+    "tool_sha256": "34cd25fe3fe0624e80b3d3f3b82e38a273f27dfe2b7781c2a4780aa657c27986"
   },
-  "inputs": [
-    {
-      "size": 16777216,
-      "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
-      "start_address": "0x080003a4"
-    }
-  ],
   "outputs": [
     {
-      "path": "analysis/leafgreen-jp-rev0-thumb-cfg.json",
-      "sha256": "7473bbf36fbde36edffebdfac193d0c54d3320d9bed1b5c40c7690f797736d92"
+      "path": "analysis/leafgreen-global-release-catalog.json",
+      "sha256": "2b39edb981133b7a6b4da03053a37d448c5291d7b7ec860f2571bf8c25e3cfe9"
     },
     {
-      "path": "src/thumb_entry_reachable.s",
-      "sha256": "3fec4d373eca6ac9ef409634fb4b289fc5e99c649b73c0607376e63ccd636f19"
+      "path": "analysis/entry-bootstrap-disassembly-summary.json",
+      "sha256": "aea15dd6036d72eae9e2b392a1ec8fd21f637ad6bef8b826843252150886833a"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "2a370e5615c8753e36ab1fd32286d0ced1f64f318d4760e7f4c6c37356ae5547"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "18eeed257c2232bbf350e23d708147e0b3ee9320045991ceb12fa9667bb2e371"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-thumb-entry-cfg-map.json",
+      "sha256": "213f42fa9341468786d67745c1a4deb2baaeeb42cab517c8e019c728a315e754"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "c31da9639270c5ec857bafbdecdee032dce6c587902288043485d478df79eacc"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "cab1c950c40858ad3e64448cff82e14d8ab8f968896faac1a07b926111b65f37"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "95b99a77816bf41c2b699c50878eb0b631af721701639545cba9ca0e003bd095"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "1b2066427273eae52665c93c34bbee2ddfc6b16d096d80c9bf108dd6cc2355ee"
+    },
+    {
+      "path": "research/thumb-entry-cfg.md",
+      "sha256": "f1485c8d7ec38468bd0bc3d0e8989bb829b2530a6815190bb322684b916811a1"
+    },
+    {
+      "path": "tests/test_thumb_cfg.py",
+      "sha256": "f86bd065cfc68ca63cefe6bfe4bd3cd8124a28a7ea0a366e6f4e6492fa8d7fc7"
     }
-  ]
+  ],
+  "raw_rom_bytes_included": false
 }
