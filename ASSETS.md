@@ -14,16 +14,30 @@ This page is generated from the repository's verified `graphics/` tree. Japanese
 | --- | --- | --- | --- | --- |
 | <img src="graphics/pokemon/deoxys-defense-back-jp.png" alt="deoxys-defense-back-jp" width="128"> | [`graphics/pokemon/deoxys-defense-back-jp.png`](graphics/pokemon/deoxys-defense-back-jp.png) | Japanese | 256x128 | `2e50a8e721440394...` |
 | <img src="graphics/pokemon/deoxys-defense-front-jp.png" alt="deoxys-defense-front-jp" width="128"> | [`graphics/pokemon/deoxys-defense-front-jp.png`](graphics/pokemon/deoxys-defense-front-jp.png) | Japanese | 256x128 | `13f0f7434eab509a...` |
+| <img src="graphics/pokemon/pikachu-back-rev0-jp.png" alt="pikachu-back-rev0-jp" width="128"> | [`graphics/pokemon/pikachu-back-rev0-jp.png`](graphics/pokemon/pikachu-back-rev0-jp.png) | Japanese | 128x128 | `d1472dd2f4862fe9...` |
+| <img src="graphics/pokemon/pikachu-front-rev0-jp.png" alt="pikachu-front-rev0-jp" width="128"> | [`graphics/pokemon/pikachu-front-rev0-jp.png`](graphics/pokemon/pikachu-front-rev0-jp.png) | Japanese | 128x128 | `0be25ad9c369dfb5...` |
 | <img src="graphics/pokemon/deoxys-defense-back-en.png" alt="deoxys-defense-back-en" width="128"> | [`graphics/pokemon/deoxys-defense-back-en.png`](graphics/pokemon/deoxys-defense-back-en.png) | English | 256x128 | `2e50a8e721440394...` |
 | <img src="graphics/pokemon/deoxys-defense-front-en.png" alt="deoxys-defense-front-en" width="128"> | [`graphics/pokemon/deoxys-defense-front-en.png`](graphics/pokemon/deoxys-defense-front-en.png) | English | 256x128 | `13f0f7434eab509a...` |
+| <img src="graphics/pokemon/pikachu-back-rev0-en.png" alt="pikachu-back-rev0-en" width="128"> | [`graphics/pokemon/pikachu-back-rev0-en.png`](graphics/pokemon/pikachu-back-rev0-en.png) | English | 128x128 | `d1472dd2f4862fe9...` |
+| <img src="graphics/pokemon/pikachu-back-rev1-en.png" alt="pikachu-back-rev1-en" width="128"> | [`graphics/pokemon/pikachu-back-rev1-en.png`](graphics/pokemon/pikachu-back-rev1-en.png) | English | 128x128 | `d1472dd2f4862fe9...` |
+| <img src="graphics/pokemon/pikachu-front-rev0-en.png" alt="pikachu-front-rev0-en" width="128"> | [`graphics/pokemon/pikachu-front-rev0-en.png`](graphics/pokemon/pikachu-front-rev0-en.png) | English | 128x128 | `0be25ad9c369dfb5...` |
+| <img src="graphics/pokemon/pikachu-front-rev1-en.png" alt="pikachu-front-rev1-en" width="128"> | [`graphics/pokemon/pikachu-front-rev1-en.png`](graphics/pokemon/pikachu-front-rev1-en.png) | English | 128x128 | `0be25ad9c369dfb5...` |
 | <img src="graphics/pokemon/deoxys-defense-back-de.png" alt="deoxys-defense-back-de" width="128"> | [`graphics/pokemon/deoxys-defense-back-de.png`](graphics/pokemon/deoxys-defense-back-de.png) | German | 256x128 | `2e50a8e721440394...` |
 | <img src="graphics/pokemon/deoxys-defense-front-de.png" alt="deoxys-defense-front-de" width="128"> | [`graphics/pokemon/deoxys-defense-front-de.png`](graphics/pokemon/deoxys-defense-front-de.png) | German | 256x128 | `13f0f7434eab509a...` |
+| <img src="graphics/pokemon/pikachu-back-rev0-de.png" alt="pikachu-back-rev0-de" width="128"> | [`graphics/pokemon/pikachu-back-rev0-de.png`](graphics/pokemon/pikachu-back-rev0-de.png) | German | 128x128 | `d1472dd2f4862fe9...` |
+| <img src="graphics/pokemon/pikachu-front-rev0-de.png" alt="pikachu-front-rev0-de" width="128"> | [`graphics/pokemon/pikachu-front-rev0-de.png`](graphics/pokemon/pikachu-front-rev0-de.png) | German | 128x128 | `0be25ad9c369dfb5...` |
 | <img src="graphics/pokemon/deoxys-defense-back-fr.png" alt="deoxys-defense-back-fr" width="128"> | [`graphics/pokemon/deoxys-defense-back-fr.png`](graphics/pokemon/deoxys-defense-back-fr.png) | French | 256x128 | `2e50a8e721440394...` |
 | <img src="graphics/pokemon/deoxys-defense-front-fr.png" alt="deoxys-defense-front-fr" width="128"> | [`graphics/pokemon/deoxys-defense-front-fr.png`](graphics/pokemon/deoxys-defense-front-fr.png) | French | 256x128 | `13f0f7434eab509a...` |
+| <img src="graphics/pokemon/pikachu-back-rev0-fr.png" alt="pikachu-back-rev0-fr" width="128"> | [`graphics/pokemon/pikachu-back-rev0-fr.png`](graphics/pokemon/pikachu-back-rev0-fr.png) | French | 128x128 | `d1472dd2f4862fe9...` |
+| <img src="graphics/pokemon/pikachu-front-rev0-fr.png" alt="pikachu-front-rev0-fr" width="128"> | [`graphics/pokemon/pikachu-front-rev0-fr.png`](graphics/pokemon/pikachu-front-rev0-fr.png) | French | 128x128 | `0be25ad9c369dfb5...` |
 | <img src="graphics/pokemon/deoxys-defense-back-it.png" alt="deoxys-defense-back-it" width="128"> | [`graphics/pokemon/deoxys-defense-back-it.png`](graphics/pokemon/deoxys-defense-back-it.png) | Italian | 256x128 | `2e50a8e721440394...` |
 | <img src="graphics/pokemon/deoxys-defense-front-it.png" alt="deoxys-defense-front-it" width="128"> | [`graphics/pokemon/deoxys-defense-front-it.png`](graphics/pokemon/deoxys-defense-front-it.png) | Italian | 256x128 | `13f0f7434eab509a...` |
+| <img src="graphics/pokemon/pikachu-back-rev0-it.png" alt="pikachu-back-rev0-it" width="128"> | [`graphics/pokemon/pikachu-back-rev0-it.png`](graphics/pokemon/pikachu-back-rev0-it.png) | Italian | 128x128 | `d1472dd2f4862fe9...` |
+| <img src="graphics/pokemon/pikachu-front-rev0-it.png" alt="pikachu-front-rev0-it" width="128"> | [`graphics/pokemon/pikachu-front-rev0-it.png`](graphics/pokemon/pikachu-front-rev0-it.png) | Italian | 128x128 | `0be25ad9c369dfb5...` |
 | <img src="graphics/pokemon/deoxys-defense-back-es.png" alt="deoxys-defense-back-es" width="128"> | [`graphics/pokemon/deoxys-defense-back-es.png`](graphics/pokemon/deoxys-defense-back-es.png) | Spanish | 256x128 | `2e50a8e721440394...` |
 | <img src="graphics/pokemon/deoxys-defense-front-es.png" alt="deoxys-defense-front-es" width="128"> | [`graphics/pokemon/deoxys-defense-front-es.png`](graphics/pokemon/deoxys-defense-front-es.png) | Spanish | 256x128 | `13f0f7434eab509a...` |
+| <img src="graphics/pokemon/pikachu-back-rev0-es.png" alt="pikachu-back-rev0-es" width="128"> | [`graphics/pokemon/pikachu-back-rev0-es.png`](graphics/pokemon/pikachu-back-rev0-es.png) | Spanish | 128x128 | `d1472dd2f4862fe9...` |
+| <img src="graphics/pokemon/pikachu-front-rev0-es.png" alt="pikachu-front-rev0-es" width="128"> | [`graphics/pokemon/pikachu-front-rev0-es.png`](graphics/pokemon/pikachu-front-rev0-es.png) | Spanish | 128x128 | `0be25ad9c369dfb5...` |
 | <img src="graphics/pokemon/deoxys-normal-de-swatch.png" alt="deoxys-normal-de-swatch" width="128"> | [`graphics/pokemon/deoxys-normal-de-swatch.png`](graphics/pokemon/deoxys-normal-de-swatch.png) | Unspecified | 256x16 | `eb02b518552821e7...` |
 | <img src="graphics/pokemon/deoxys-normal-en-swatch.png" alt="deoxys-normal-en-swatch" width="128"> | [`graphics/pokemon/deoxys-normal-en-swatch.png`](graphics/pokemon/deoxys-normal-en-swatch.png) | Unspecified | 256x16 | `eb02b518552821e7...` |
 | <img src="graphics/pokemon/deoxys-normal-es-swatch.png" alt="deoxys-normal-es-swatch" width="128"> | [`graphics/pokemon/deoxys-normal-es-swatch.png`](graphics/pokemon/deoxys-normal-es-swatch.png) | Unspecified | 256x16 | `eb02b518552821e7...` |
@@ -34,11 +48,18 @@ This page is generated from the repository's verified `graphics/` tree. Japanese
 | Palette | Language | Colors | SHA-256 |
 | --- | --- | --- | --- |
 | [`graphics/pokemon/deoxys-normal-jp.pal`](graphics/pokemon/deoxys-normal-jp.pal) | Japanese | 16 | `479c76fdaf9a0ca4...` |
+| [`graphics/pokemon/pikachu-rev0-jp.pal`](graphics/pokemon/pikachu-rev0-jp.pal) | Japanese | 16 | `066a8707fdfbf027...` |
 | [`graphics/pokemon/deoxys-normal-en.pal`](graphics/pokemon/deoxys-normal-en.pal) | English | 16 | `479c76fdaf9a0ca4...` |
+| [`graphics/pokemon/pikachu-rev0-en.pal`](graphics/pokemon/pikachu-rev0-en.pal) | English | 16 | `066a8707fdfbf027...` |
+| [`graphics/pokemon/pikachu-rev1-en.pal`](graphics/pokemon/pikachu-rev1-en.pal) | English | 16 | `066a8707fdfbf027...` |
 | [`graphics/pokemon/deoxys-normal-de.pal`](graphics/pokemon/deoxys-normal-de.pal) | German | 16 | `479c76fdaf9a0ca4...` |
+| [`graphics/pokemon/pikachu-rev0-de.pal`](graphics/pokemon/pikachu-rev0-de.pal) | German | 16 | `066a8707fdfbf027...` |
 | [`graphics/pokemon/deoxys-normal-fr.pal`](graphics/pokemon/deoxys-normal-fr.pal) | French | 16 | `479c76fdaf9a0ca4...` |
+| [`graphics/pokemon/pikachu-rev0-fr.pal`](graphics/pokemon/pikachu-rev0-fr.pal) | French | 16 | `066a8707fdfbf027...` |
 | [`graphics/pokemon/deoxys-normal-it.pal`](graphics/pokemon/deoxys-normal-it.pal) | Italian | 16 | `479c76fdaf9a0ca4...` |
+| [`graphics/pokemon/pikachu-rev0-it.pal`](graphics/pokemon/pikachu-rev0-it.pal) | Italian | 16 | `066a8707fdfbf027...` |
 | [`graphics/pokemon/deoxys-normal-es.pal`](graphics/pokemon/deoxys-normal-es.pal) | Spanish | 16 | `479c76fdaf9a0ca4...` |
+| [`graphics/pokemon/pikachu-rev0-es.pal`](graphics/pokemon/pikachu-rev0-es.pal) | Spanish | 16 | `066a8707fdfbf027...` |
 
 ## Title
 
