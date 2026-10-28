@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "LeafGreen",
+  "function": "CheckForFlashMemory",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "source": "src/check_flash_memory.s",
+  "releases": [
+    {
+      "id": "bpg-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
+      "origin_reference": true,
+      "address": "0x0804B79C",
+      "code_sha256": "deee49ca35fcbb20056ce41ffbc384c49331fd299d643952684d1fd8af6046d4",
+      "evidence": "analysis/bpg-j-rev0-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "bpg-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc",
+      "origin_reference": false,
+      "address": "0x0804BFE4",
+      "code_sha256": "dc13cc126e732211bb2b1e25cb633214217ea4733b43e3449072c6a24b1e12fe",
+      "evidence": "analysis/bpg-e-rev0-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "bpg-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "2f978f635b9593f6ca26ec42481c53a6b39f6cddd894ad5c062c1419fac58825",
+      "origin_reference": false,
+      "address": "0x0804BFF8",
+      "code_sha256": "04a7558953911b18a4e264d05f81df22fe860e4cab430f70c75e02259b4e3ebb",
+      "evidence": "analysis/bpg-e-rev1-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "bpg-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2",
+      "origin_reference": false,
+      "address": "0x0804C004",
+      "code_sha256": "e994e91b42084f4c7d6694a279366bf7b304cf28e0c80107bcd2ea008f675b35",
+      "evidence": "analysis/bpg-d-rev0-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "bpg-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "cc0fa93f4631d0814afcd5a273edf28f2876e126e8ef0df4dd39dd6f36e53ed3",
+      "origin_reference": false,
+      "address": "0x0804C0C4",
+      "code_sha256": "9484382856759b57d9a5c6503a4bf132b03416de805258180724561ce900454f",
+      "evidence": "analysis/bpg-f-rev0-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "bpg-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+      "origin_reference": false,
+      "address": "0x0804BFF0",
+      "code_sha256": "aa1b071b9ac4e4dd860a571908fe3754e9dcdaec5d66389b64d01fb7f027f937",
+      "evidence": "analysis/bpg-i-rev0-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "bpg-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48",
+      "origin_reference": false,
+      "address": "0x0804C0D8",
+      "code_sha256": "f6128ad21c7da275db5ac3cc6f412626faa54fb054b7368b9e1bcf8485b1665e",
+      "evidence": "analysis/bpg-s-rev0-retail-check-flash-memory-disassembly.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
