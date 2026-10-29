@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "LeafGreen",
+  "function": "SetDefaultFontsPointer",
+  "family_profile": "frlg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "source": "src/set_default_fonts_pointer.s",
+  "releases": [
+    {
+      "id": "bpg-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
+      "origin_reference": true,
+      "address": "0x080F8A00",
+      "default_table_address": "0x083E2F58",
+      "code_sha256": "9719a2b884843be6266ef0a124d2e0f47e896f0f124ed9cd7876340b3b2affe0",
+      "evidence": "analysis/bpg-j-rev0-retail-default-fonts-pointer-disassembly.json"
+    },
+    {
+      "id": "bpg-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc",
+      "origin_reference": false,
+      "address": "0x080F79A0",
+      "default_table_address": "0x0841F280",
+      "code_sha256": "297efad3743593ea40fe981091d154da4ae6af6cb7f1c387929815acd24203e6",
+      "evidence": "analysis/bpg-e-rev0-retail-default-fonts-pointer-disassembly.json"
+    },
+    {
+      "id": "bpg-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "2f978f635b9593f6ca26ec42481c53a6b39f6cddd894ad5c062c1419fac58825",
+      "origin_reference": false,
+      "address": "0x080F7A18",
+      "default_table_address": "0x0841F2F0",
+      "code_sha256": "0766c933fe894b6d4694e6e137240397cb1ea2629d8052b9113b394c606cae43",
+      "evidence": "analysis/bpg-e-rev1-retail-default-fonts-pointer-disassembly.json"
+    },
+    {
+      "id": "bpg-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2",
+      "origin_reference": false,
+      "address": "0x080F7C34",
+      "default_table_address": "0x0841F5BC",
+      "code_sha256": "43be4ac5a5e532b3d4cec92e1dd4e30df4d05ab037d87d182e4f0d6c1df942a9",
+      "evidence": "analysis/bpg-d-rev0-retail-default-fonts-pointer-disassembly.json"
+    },
+    {
+      "id": "bpg-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "cc0fa93f4631d0814afcd5a273edf28f2876e126e8ef0df4dd39dd6f36e53ed3",
+      "origin_reference": false,
+      "address": "0x080F7CF4",
+      "default_table_address": "0x08417754",
+      "code_sha256": "bab3166a0a74393c43bf455e5681572c353295e82799163497721ec94e01cc2d",
+      "evidence": "analysis/bpg-f-rev0-retail-default-fonts-pointer-disassembly.json"
+    },
+    {
+      "id": "bpg-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+      "origin_reference": false,
+      "address": "0x080F7C34",
+      "default_table_address": "0x08416840",
+      "code_sha256": "43be4ac5a5e532b3d4cec92e1dd4e30df4d05ab037d87d182e4f0d6c1df942a9",
+      "evidence": "analysis/bpg-i-rev0-retail-default-fonts-pointer-disassembly.json"
+    },
+    {
+      "id": "bpg-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48",
+      "origin_reference": false,
+      "address": "0x080F7D1C",
+      "default_table_address": "0x08419EE8",
+      "code_sha256": "aef546150a784e531c5803cec8a239df19babfa51b3fb38a18c5b3cdcc2537de",
+      "evidence": "analysis/bpg-s-rev0-retail-default-fonts-pointer-disassembly.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

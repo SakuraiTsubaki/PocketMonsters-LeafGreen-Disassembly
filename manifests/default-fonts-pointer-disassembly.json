@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "LeafGreen",
+  "function": "SetDefaultFontsPointer",
+  "family_profile": "frlg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_default_fonts_pointer.py",
+    "tool_sha256": "c1b8dd9344f88210e1df41dc0822cb02cb795ac519627fd65eba01e125098731"
+  },
+  "outputs": [
+    {
+      "path": "analysis/leafgreen-global-release-catalog.json",
+      "sha256": "2b39edb981133b7a6b4da03053a37d448c5291d7b7ec860f2571bf8c25e3cfe9"
+    },
+    {
+      "path": "src/set_default_fonts_pointer.s",
+      "sha256": "b09deacc72cc9138443118c6495c3e20779460c0ad5e163f70e115aa6957c454"
+    },
+    {
+      "path": "analysis/default-fonts-pointer-disassembly-summary.json",
+      "sha256": "7568f6f24ea3c1fd50aff8e29b6d87da40829b5154e7e9def7dca48a20182758"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "75a26932c202e1f933cc22681a54056a38b5b13969db31569c78d1f67d2b51e0"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "772fff964a6411c5587fec2e00feb1a332c9f71e85a527e34889829b8c0798fb"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "007c3d1946e6283eda62f17297d80e828b15c2e41dc391cbef1050bc6130b2f1"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "480a60729f87236b22761f7c8ee97d99ea992de1b49cbb8612abb24091314837"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "bdc3418cd81bbc96faaf2d3b4033598e28ec764bc8fc67e4982a7560b6d41512"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "301f563ad5423fa79a8e33f52057ab2377f17f5c9c94eaaa06ba71bc467f725c"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "d738e508e87a489084075bd39b635c9d1eb5ad6612bf93a278c70df6077d1eaa"
+    },
+    {
+      "path": "research/default-fonts-pointer-disassembly.md",
+      "sha256": "f71ae564ccd7a40536d59a84d4e9eb0e4d45f66aa037ceca37ab7db7d5528d84"
+    },
+    {
+      "path": "tests/test_default_fonts_pointer_disassembly.py",
+      "sha256": "d62a29e86ed11b3300576f166f147d80fc831860069289f90c2d631ac33449c4"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

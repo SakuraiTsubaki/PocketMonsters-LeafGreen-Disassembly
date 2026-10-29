@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "target": {
+    "release": "bpg-j-rev0-retail",
+    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2"
+  },
+  "origin_reference": true,
+  "source": "src/set_default_fonts_pointer.s",
+  "source_sha256": "b09deacc72cc9138443118c6495c3e20779460c0ad5e163f70e115aa6957c454",
+  "discovery": {
+    "caller": "thumb_entry_reachable",
+    "caller_address": "0x080003A4",
+    "boot_call_source": "0x080003F8",
+    "call_offset_from_init_heap": 1
+  },
+  "function": {
+    "name": "SetDefaultFontsPointer",
+    "address": "0x080F8A00",
+    "range_end_exclusive": "0x080F8A0C",
+    "rom_code_range": {
+      "start_offset": 1018368,
+      "end_offset_exclusive": 1018380,
+      "length": 12,
+      "sha256": "9719a2b884843be6266ef0a124d2e0f47e896f0f124ed9cd7876340b3b2affe0",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "name": "SetFontsPointer",
+        "source": "0x080F8A04",
+        "target": "0x08002C1C",
+        "callee_code_sha256": "ec1f8016cade76ef16ec317b7da36e7ae1da1dcc1d87bd276afc86ad3b7d2209"
+      }
+    ]
+  },
+  "control_flow": {
+    "instruction_halfwords": 6,
+    "edge_count": 0,
+    "direct_call_count": 1,
+    "return_count": 1,
+    "canonical_instruction_bytes_sha256": "9719a2b884843be6266ef0a124d2e0f47e896f0f124ed9cd7876340b3b2affe0",
+    "raw_halfwords_omitted": true
+  },
+  "verified_behavior": {
+    "instruction_form": "load-default-table-then-set-pointer",
+    "default_table_name": "gFontInfos",
+    "default_table_address": "0x083E2F58",
+    "callee_shape": [
+      6,
+      3,
+      0,
+      1,
+      0
+    ]
+  },
+  "cross_reference": {
+    "init_heap_map": "analysis/bpg-j-rev0-retail-init-heap-disassembly.json",
+    "init_heap_map_sha256": "fe39d694177f31e05e06a89152bf57531a43c6c8097233967c693724cd283afe"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/new_menu_helpers.c"
+  },
+  "raw_rom_bytes_included": false
+}
