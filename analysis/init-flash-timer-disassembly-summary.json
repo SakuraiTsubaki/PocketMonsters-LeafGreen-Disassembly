@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "LeafGreen",
+  "function": "InitFlashTimer",
+  "family_profile": "frlg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "source": "src/init_flash_timer.s",
+  "releases": [
+    {
+      "id": "bpg-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
+      "origin_reference": true,
+      "address": "0x080007C8",
+      "code_sha256": "2bf01cea485ef4f14bfd373f78b9fc8f3571142b5d5da99dbc1ebab73933e1e7",
+      "handler_operand_form": "loaded-handler",
+      "evidence": "analysis/bpg-j-rev0-retail-init-flash-timer-disassembly.json"
+    },
+    {
+      "id": "bpg-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc",
+      "origin_reference": false,
+      "address": "0x080007C8",
+      "code_sha256": "8396a523d8a3ce7637ee0cf75f1d0e73a54f13548e15f116d5ca7823641ee6bc",
+      "handler_operand_form": "loaded-handler",
+      "evidence": "analysis/bpg-e-rev0-retail-init-flash-timer-disassembly.json"
+    },
+    {
+      "id": "bpg-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "2f978f635b9593f6ca26ec42481c53a6b39f6cddd894ad5c062c1419fac58825",
+      "origin_reference": false,
+      "address": "0x080007DC",
+      "code_sha256": "2bcda0ea5a96bc6c276cc9c8a261d07709e5e124c632083d5ff9c2c37b4e8167",
+      "handler_operand_form": "loaded-handler",
+      "evidence": "analysis/bpg-e-rev1-retail-init-flash-timer-disassembly.json"
+    },
+    {
+      "id": "bpg-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2",
+      "origin_reference": false,
+      "address": "0x080007D8",
+      "code_sha256": "cf23fbb127a4cca6d33ac508d650b64c25529f58faace9a248b3206e588fca17",
+      "handler_operand_form": "loaded-handler",
+      "evidence": "analysis/bpg-d-rev0-retail-init-flash-timer-disassembly.json"
+    },
+    {
+      "id": "bpg-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "cc0fa93f4631d0814afcd5a273edf28f2876e126e8ef0df4dd39dd6f36e53ed3",
+      "origin_reference": false,
+      "address": "0x080007C4",
+      "code_sha256": "b0c16ab6d0a0664d210cb4cad046d4c35ca55c58f590339387ea3da09b5a292c",
+      "handler_operand_form": "loaded-handler",
+      "evidence": "analysis/bpg-f-rev0-retail-init-flash-timer-disassembly.json"
+    },
+    {
+      "id": "bpg-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+      "origin_reference": false,
+      "address": "0x080007D8",
+      "code_sha256": "48b6764332ad15ba5570100a294d0f206d2e082dd7e55b60447263555dfd23a6",
+      "handler_operand_form": "loaded-handler",
+      "evidence": "analysis/bpg-i-rev0-retail-init-flash-timer-disassembly.json"
+    },
+    {
+      "id": "bpg-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48",
+      "origin_reference": false,
+      "address": "0x080007C4",
+      "code_sha256": "cf0b61a3612480d55c45a69eec5a5a454d7d9762429216d1476fb73e936ed60f",
+      "handler_operand_form": "loaded-handler",
+      "evidence": "analysis/bpg-s-rev0-retail-init-flash-timer-disassembly.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
