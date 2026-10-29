@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "LeafGreen",
+  "function": "InitHeap",
+  "family_profile": "frlg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_init_heap.py",
+    "tool_sha256": "c6b655bdf012ebce78088b225093a10579cd6a45f23dd4e685c0f9cad9c46105"
+  },
+  "outputs": [
+    {
+      "path": "analysis/leafgreen-global-release-catalog.json",
+      "sha256": "2b39edb981133b7a6b4da03053a37d448c5291d7b7ec860f2571bf8c25e3cfe9"
+    },
+    {
+      "path": "src/init_heap.s",
+      "sha256": "4aa39e48e325fc644d22d4398077cd2a77bf428b8d6946bf6b3e335dd5e3b1bb"
+    },
+    {
+      "path": "analysis/init-heap-disassembly-summary.json",
+      "sha256": "deadc0a7a0e68988e154a65635e5f453f224460ef2ee6348ccc93c1d97677201"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-init-heap-disassembly.json",
+      "sha256": "fe39d694177f31e05e06a89152bf57531a43c6c8097233967c693724cd283afe"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-init-heap-disassembly.json",
+      "sha256": "5b992195fc9e93450e2ff8b25625dc2bc0a98f6095bfb469931c5debde9317ba"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-init-heap-disassembly.json",
+      "sha256": "6d041b3c84301c28db11bbfd4dc815cb57a22f11bc54fa1a4f4bd74a7af62277"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-init-heap-disassembly.json",
+      "sha256": "f1a2f0e5a767fbfc289d1a0b35cd88817994cd427c7249dc5725231733cc5082"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-init-heap-disassembly.json",
+      "sha256": "8ee423658b1f8a1dce285dea77903fe33b86a89e88ae7ce8b40d508b858a929f"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-init-heap-disassembly.json",
+      "sha256": "bbfd71cabdc36c95117ab8befb7c67bd907429507ab73b89264b51b13dfa7360"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-init-heap-disassembly.json",
+      "sha256": "1577c5cc20f68ac32778019e3c4fee00519b4f59a62538da1d68d39ed08c3580"
+    },
+    {
+      "path": "research/init-heap-disassembly.md",
+      "sha256": "7c6b4dc047408c35a6e04f315936642ec84e90f59dc0d195a27b9da3deecaf83"
+    },
+    {
+      "path": "tests/test_init_heap_disassembly.py",
+      "sha256": "e9108c2eb51d9d99178dc4126e2ded9285bebe5b4ef36158c988970434e59c78"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
