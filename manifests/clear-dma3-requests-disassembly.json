@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "LeafGreen",
+  "function": "ClearDma3Requests",
+  "family_profile": "frlg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_clear_dma3_requests.py",
+    "tool_sha256": "65920c5065510f56dec45703cda854251d0faa70de8a143e5a74654d788ac7b6"
+  },
+  "outputs": [
+    {
+      "path": "analysis/leafgreen-global-release-catalog.json",
+      "sha256": "2b39edb981133b7a6b4da03053a37d448c5291d7b7ec860f2571bf8c25e3cfe9"
+    },
+    {
+      "path": "src/clear_dma3_requests.s",
+      "sha256": "e28a306b5e0b96378bbe2313634d51ebbd63cfdde0c84fec16d58153dcf66701"
+    },
+    {
+      "path": "analysis/clear-dma3-requests-disassembly-summary.json",
+      "sha256": "074f1a163f60da862be3b26deb8c395652b7a46d00301631658c99dce11556c9"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "9bd7e5fa54f585a5009cd02d0ae50a407a42f8c0bfdb189ba556530758ae6eff"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "efbb17c56464ffcfc0c56fd54fac2f754ac26443170579e1dff922c3202d8fca"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "67ea3433307ca8a6e87fba8b5e9ee0fced144a872fb1373c6ae8faf35b1c3062"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "b1fb5c60a2b28a99115cf923eae2326be5238de72f3ec6de312c533b901d7ad0"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "7858b9e1deab5932a06001c0106863023548d25dc2ff7f913ef518db9212caa1"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "7886aa525178b7423071d590aa665e42bcea0dd8284191ee323eb1c1280a63f0"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "9774ded00ed78239a6c28f98645c7638a2cfb7f921bb0629ba1daccd0ed027ae"
+    },
+    {
+      "path": "research/clear-dma3-requests-disassembly.md",
+      "sha256": "80afda992a079168be8ba9e55927fc84a00cde50999dddefde7d492ecf0adf8c"
+    },
+    {
+      "path": "tests/test_clear_dma3_requests_disassembly.py",
+      "sha256": "177bd291c47acc89232444ed00287ff2d9224512bfc078cf7cb89ca5b7308988"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
