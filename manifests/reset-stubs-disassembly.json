@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "LeafGreen",
+  "functions": [
+    "RegisterRamReset",
+    "SoftReset"
+  ],
+  "profile": "frlg",
+  "origin_reference": "leafgreen-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_reset_stubs.py",
+    "tool_sha256": "82440844efd64a739145ee009454885aab9a7b83892f194aa6bd8efec87e0ef6"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "3ceb4ebc6f662a8116c7ad8d08ee2b926c0b10228d75f79fe7d5dac74be10c8f"
+    },
+    {
+      "path": "src/reset_stubs.s",
+      "sha256": "b021ad0ef730b45a1b119ef54e0977cd742ee7839062257557e0fcf5539a7ae0"
+    },
+    {
+      "path": "analysis/reset-stubs-summary.json",
+      "sha256": "493baa1f683a87e82bb3c1cad82ed2bf7007337be7eece7b48b2c0dfbfbc5c1e"
+    },
+    {
+      "path": "analysis/leafgreen-jp-rev0-reset-stubs.json",
+      "sha256": "c66d0c867447c45213b8de3164c51ba25b86eb74afd8678540bd77ff308f24ae"
+    },
+    {
+      "path": "analysis/leafgreen-en-rev0-reset-stubs.json",
+      "sha256": "ab048de17339f4fe2a4a13c8dfc6c055618471cbf973cfce55417af6dc7521ca"
+    },
+    {
+      "path": "analysis/leafgreen-en-rev1-reset-stubs.json",
+      "sha256": "12476481d5dd2f8ef8ca6d379563c5a93a7da9a09f1dbfae88106febfd3f6495"
+    },
+    {
+      "path": "analysis/leafgreen-de-rev0-reset-stubs.json",
+      "sha256": "406396a47f61907ad7e550356ccf35863ef1d527619fa521a82de1d425f763ec"
+    },
+    {
+      "path": "analysis/leafgreen-fr-rev0-reset-stubs.json",
+      "sha256": "8eda95be0a5f9d589669f9fd8d4ef1ba8a188b47c154406d3771ed8e0c80341d"
+    },
+    {
+      "path": "analysis/leafgreen-it-rev0-reset-stubs.json",
+      "sha256": "730240f75f44ae5750b25498cda7403bdb89a261d18b965985c22b145c6aa518"
+    },
+    {
+      "path": "analysis/leafgreen-es-rev0-reset-stubs.json",
+      "sha256": "cddf9645f1170e931a99baae8e52b884a75f038e836ac9eabc22bef6752a5330"
+    },
+    {
+      "path": "research/reset-stubs-disassembly.md",
+      "sha256": "c6d413a6b4595668c8efa91710050c037d30e7ba10467523011e769127b1ba9a"
+    },
+    {
+      "path": "tests/test_reset_stubs_disassembly.py",
+      "sha256": "8e38c56419111d277fc8e5bbd314b94529df75e2c13bd919d6ff7c7a0c95dd7d"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
