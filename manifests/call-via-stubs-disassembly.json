@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "LeafGreen",
+  "library": "libgcc",
+  "object": "_call_via_rX.o",
+  "profile": "frlg",
+  "origin_reference": "leafgreen-jp-rev0",
+  "release_count": 7,
+  "function_count": 15,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_call_via_stubs.py",
+    "tool_sha256": "55f40cb2265a9ad4a6ff56ce228e331837b0d2b75936a973f03b0db0d326ea3b"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "3ceb4ebc6f662a8116c7ad8d08ee2b926c0b10228d75f79fe7d5dac74be10c8f"
+    },
+    {
+      "path": "src/call_via_stubs.s",
+      "sha256": "949d4f0bd48d0e6948271bebb1994478ae2bea90dca5c566f8a88aaaf7f5f908"
+    },
+    {
+      "path": "analysis/call-via-stubs-summary.json",
+      "sha256": "81827c9b4349bfbdbebd07934304618bb5014f1c01c47834467957abd118efc5"
+    },
+    {
+      "path": "analysis/leafgreen-jp-rev0-call-via-stubs.json",
+      "sha256": "85e1bfb35078ce1ccf269481d8ba475f6d919fd911f3fe28d14cbd6b4243d5d5"
+    },
+    {
+      "path": "analysis/leafgreen-en-rev0-call-via-stubs.json",
+      "sha256": "b4eb03b1599949d2001e9531f5960466f86c977e53979f11715ccbd0138411fe"
+    },
+    {
+      "path": "analysis/leafgreen-en-rev1-call-via-stubs.json",
+      "sha256": "97e5be816329ed2646be02945f057bbfdcaec7d98b673997078bdb396bd270a2"
+    },
+    {
+      "path": "analysis/leafgreen-de-rev0-call-via-stubs.json",
+      "sha256": "b35a43b4c50fd943d488274e2e473379b1b35d7ca883c90539e7c07c52fada6d"
+    },
+    {
+      "path": "analysis/leafgreen-fr-rev0-call-via-stubs.json",
+      "sha256": "639eecc06e3c1bbd2f9397888f4033bb8bf0b27f514216e45e6c9585ab07e22d"
+    },
+    {
+      "path": "analysis/leafgreen-it-rev0-call-via-stubs.json",
+      "sha256": "476496929a9438dc631c86c130cad24e66ccab4c1a298cb767f6d991bdbd002e"
+    },
+    {
+      "path": "analysis/leafgreen-es-rev0-call-via-stubs.json",
+      "sha256": "82de60289a763f7f023aee6b7b8bec713c6579284afe17ec10d9cef386c5384c"
+    },
+    {
+      "path": "research/call-via-stubs-disassembly.md",
+      "sha256": "451f3c38c370f146e23ff700fb9e5c13f9ff289349e2e010bfc79fb575f9a8ed"
+    },
+    {
+      "path": "tests/test_call_via_stubs_disassembly.py",
+      "sha256": "3a06744e0f149ab451fd276f11564f6713cf1d5fc1f0629dffaf59815d2e6e00"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

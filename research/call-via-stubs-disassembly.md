@@ -1,0 +1,3 @@
+# LeafGreen libgcc call-via trampolines
+
+`leafgreen-jp-rev0` is the Japanese origin reference. All 7 cataloged releases (Japanese, English, German, French, Italian, Spanish) contain the same word-aligned `_call_via_rX` suite immediately after the verified BIOS stubs. The suite provides 15 four-byte Thumb trampolines for r0-r9, sl, fp, ip, sp, and lr; each executes `bx` through its named register followed by a padding `nop`. The pinned upstream linker script places `libgcc.a:_call_via_rX.o(.text)` here. 6 release(s) also contain a second byte-identical suite elsewhere, so the selected instance is anchored by its verified adjacency rather than global signature uniqueness. No ROM bytes are published.
