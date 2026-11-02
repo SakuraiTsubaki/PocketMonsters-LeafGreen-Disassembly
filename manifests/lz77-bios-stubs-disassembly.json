@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "LeafGreen",
+  "library": "libagbsyscall",
+  "functions": [
+    "LZ77UnCompVram",
+    "LZ77UnCompWram"
+  ],
+  "profile": "frlg",
+  "origin_reference": "leafgreen-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_lz77_bios_stubs.py",
+    "tool_sha256": "cf0084a4f60f1f1f71ae5803df9a80874a071bdbb00d12e6465a6d41f4e5cc06"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "3ceb4ebc6f662a8116c7ad8d08ee2b926c0b10228d75f79fe7d5dac74be10c8f"
+    },
+    {
+      "path": "src/lz77_bios_stubs.s",
+      "sha256": "d3bbc762342fbe9da694f5a19a433a532cd94ba9053664d5cc4dfa07205fae50"
+    },
+    {
+      "path": "analysis/lz77-bios-stubs-disassembly-summary.json",
+      "sha256": "b7e1c2d3f4a12b4a544ef095f6394b466aafd843e1ba6f12bb79090f571ebf03"
+    },
+    {
+      "path": "analysis/leafgreen-jp-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "0b4915eac906691b7f20e5ce4df13d1234f4ddc1c8cff619b949c248ba1bebe6"
+    },
+    {
+      "path": "analysis/leafgreen-en-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "27d37686ec0c86e5c039facd8624672c8c53791228a9c786c1e3472b502b19b9"
+    },
+    {
+      "path": "analysis/leafgreen-en-rev1-lz77-bios-stubs-disassembly.json",
+      "sha256": "0815eadf398d7fe7091cf7e7af6dd2100724c2272ab342b7264ef00d51613548"
+    },
+    {
+      "path": "analysis/leafgreen-de-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "7096ff171a048224f3fbfb8d36c9d9cdcbe576d4c23219f56a27147516c72561"
+    },
+    {
+      "path": "analysis/leafgreen-fr-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "a9bd6a82d2f8065134497127064b425745bdc3b2dc44fa54836450b37fb361a8"
+    },
+    {
+      "path": "analysis/leafgreen-it-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "4ab2cb7c874765ab36d0f33b7ad5ee69f8fb753387dc9232fe388284a95dd9a9"
+    },
+    {
+      "path": "analysis/leafgreen-es-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "27f6ac7113b4fe5f706876c4b46590b13d50e5bcaeb1aa6a5567289f446202a9"
+    },
+    {
+      "path": "research/lz77-bios-stubs-disassembly.md",
+      "sha256": "b52793ff2a8d1e886be81c7edc7be9772ef01c3a4ab69e9352d6d6a5aed21161"
+    },
+    {
+      "path": "tests/test_lz77_bios_stubs_disassembly.py",
+      "sha256": "d2829be5deef2a0f4d96f67442910441e8f43653ba0d8a458ae3a9e520c40055"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
