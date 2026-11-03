@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "LeafGreen",
+  "library": "libagbsyscall",
+  "functions": [
+    "ArcTan2",
+    "CpuSet"
+  ],
+  "profile": "frlg",
+  "origin_reference": "leafgreen-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_arctan2_cpuset_stubs.py",
+    "tool_sha256": "011082c36dc18fbaeb8325934d07ef4a0342cc270c75b331bf94a000263f2df9"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "3ceb4ebc6f662a8116c7ad8d08ee2b926c0b10228d75f79fe7d5dac74be10c8f"
+    },
+    {
+      "path": "src/arctan2_cpuset_bios_stubs.s",
+      "sha256": "b3689ce4b50099a5be86bec1d6421258bc6bdc20053b7dff5c8a08be8c858814"
+    },
+    {
+      "path": "analysis/arctan2-cpuset-stubs-disassembly-summary.json",
+      "sha256": "f7338074af9a78efa3c8ad7d37e1dba878cad40b2745dc77c278bd7cbb85145a"
+    },
+    {
+      "path": "analysis/leafgreen-jp-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "f672f05c065b56edecfb0298468801e8b1bf47583f3772035b0b3768ed71a063"
+    },
+    {
+      "path": "analysis/leafgreen-en-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "984bdf4a16b38e9b9360ff310ddec92f76f57e4e984e4596252ec520ecb7d6b8"
+    },
+    {
+      "path": "analysis/leafgreen-en-rev1-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "d9c2802ceee8af6a01aa09fb4b34262a9529aadb39ff6269cf9f7895d6d125aa"
+    },
+    {
+      "path": "analysis/leafgreen-de-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "d4be079dfa3b7d5ceeced59fe31e7c86770abad2ea29e917cfd3c6bfeaee032b"
+    },
+    {
+      "path": "analysis/leafgreen-fr-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "b5ee2578bdf501a88278d1421059b4330533b025624ede2ab070da930c65c4d0"
+    },
+    {
+      "path": "analysis/leafgreen-it-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "ab19c909e2ecec1fa2d91c30779a040847e01031daf61423221fc11af0bf4623"
+    },
+    {
+      "path": "analysis/leafgreen-es-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "ed5ca8e79715364bc32dbcad4ed7c995c94fb6c46f56b52e4875d3344eb3cc2d"
+    },
+    {
+      "path": "research/arctan2-cpuset-stubs-disassembly.md",
+      "sha256": "2770054c280b91511542001c0115b960b1c26ef4f06da246460c24430136f6ad"
+    },
+    {
+      "path": "tests/test_arctan2_cpuset_stubs_disassembly.py",
+      "sha256": "103a65cf753cb52e353a8df10561a7f07525d3b409de2e9b58d8ae1f852ecc34"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

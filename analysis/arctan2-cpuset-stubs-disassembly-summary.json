@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "LeafGreen",
+  "library": "libagbsyscall",
+  "functions": [
+    "ArcTan2",
+    "CpuSet"
+  ],
+  "profile": "frlg",
+  "origin_reference": "leafgreen-jp-rev0",
+  "release_count": 7,
+  "source": "src/arctan2_cpuset_bios_stubs.s",
+  "releases": [
+    {
+      "id": "leafgreen-jp-rev0",
+      "language": "Japanese",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
+      "origin_reference": true,
+      "addresses": {
+        "ArcTan2": "0x081C7A58",
+        "CpuSet": "0x081C7A64"
+      },
+      "cpuset_signature_match_count": 2,
+      "evidence": "analysis/leafgreen-jp-rev0-arctan2-cpuset-stubs-disassembly.json"
+    },
+    {
+      "id": "leafgreen-en-rev0",
+      "language": "English",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc",
+      "origin_reference": false,
+      "addresses": {
+        "ArcTan2": "0x081E3B34",
+        "CpuSet": "0x081E3B40"
+      },
+      "cpuset_signature_match_count": 2,
+      "evidence": "analysis/leafgreen-en-rev0-arctan2-cpuset-stubs-disassembly.json"
+    },
+    {
+      "id": "leafgreen-en-rev1",
+      "language": "English",
+      "revision": 1,
+      "status": "candidate",
+      "sha256": "2f978f635b9593f6ca26ec42481c53a6b39f6cddd894ad5c062c1419fac58825",
+      "origin_reference": false,
+      "addresses": {
+        "ArcTan2": "0x081E3BA4",
+        "CpuSet": "0x081E3BB0"
+      },
+      "cpuset_signature_match_count": 2,
+      "evidence": "analysis/leafgreen-en-rev1-arctan2-cpuset-stubs-disassembly.json"
+    },
+    {
+      "id": "leafgreen-de-rev0",
+      "language": "German",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2",
+      "origin_reference": false,
+      "addresses": {
+        "ArcTan2": "0x081E7A1C",
+        "CpuSet": "0x081E7A28"
+      },
+      "cpuset_signature_match_count": 3,
+      "evidence": "analysis/leafgreen-de-rev0-arctan2-cpuset-stubs-disassembly.json"
+    },
+    {
+      "id": "leafgreen-fr-rev0",
+      "language": "French",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "cc0fa93f4631d0814afcd5a273edf28f2876e126e8ef0df4dd39dd6f36e53ed3",
+      "origin_reference": false,
+      "addresses": {
+        "ArcTan2": "0x081E1F58",
+        "CpuSet": "0x081E1F64"
+      },
+      "cpuset_signature_match_count": 3,
+      "evidence": "analysis/leafgreen-fr-rev0-arctan2-cpuset-stubs-disassembly.json"
+    },
+    {
+      "id": "leafgreen-it-rev0",
+      "language": "Italian",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+      "origin_reference": false,
+      "addresses": {
+        "ArcTan2": "0x081E0BF0",
+        "CpuSet": "0x081E0BFC"
+      },
+      "cpuset_signature_match_count": 3,
+      "evidence": "analysis/leafgreen-it-rev0-arctan2-cpuset-stubs-disassembly.json"
+    },
+    {
+      "id": "leafgreen-es-rev0",
+      "language": "Spanish",
+      "revision": 0,
+      "status": "candidate",
+      "sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48",
+      "origin_reference": false,
+      "addresses": {
+        "ArcTan2": "0x081E32B8",
+        "CpuSet": "0x081E32C4"
+      },
+      "cpuset_signature_match_count": 3,
+      "evidence": "analysis/leafgreen-es-rev0-arctan2-cpuset-stubs-disassembly.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
