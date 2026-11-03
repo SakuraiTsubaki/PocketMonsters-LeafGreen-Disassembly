@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "LeafGreen",
+  "library": "libagbsyscall",
+  "function": "MultiBoot",
+  "profile": "frlg",
+  "origin_reference": "leafgreen-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_multiboot_stub.py",
+    "tool_sha256": "a5e57eb392c7726c0e9f3898657b62efa1bfafdb54f0d876237739309c963f62"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "3ceb4ebc6f662a8116c7ad8d08ee2b926c0b10228d75f79fe7d5dac74be10c8f"
+    },
+    {
+      "path": "src/multiboot_bios_stub.s",
+      "sha256": "2ed8f848b1a2db14f543d1f2ec774d06696eca4feebdd9d6752d0044a7394683"
+    },
+    {
+      "path": "analysis/multiboot-stub-disassembly-summary.json",
+      "sha256": "4e7ed9c2e1a563479dcebaeee6620921a5c78108192328607954de6a30c8e4a9"
+    },
+    {
+      "path": "analysis/leafgreen-jp-rev0-multiboot-stub-disassembly.json",
+      "sha256": "d2d332ac6d81b53acd234b66e9970b0ce3b869abbf0730811c6d60a52abf5cc4"
+    },
+    {
+      "path": "analysis/leafgreen-en-rev0-multiboot-stub-disassembly.json",
+      "sha256": "56d1d825363623673ef928266dc5471dee67b321bf8af5577dce8ac86a5c75bb"
+    },
+    {
+      "path": "analysis/leafgreen-en-rev1-multiboot-stub-disassembly.json",
+      "sha256": "ef162a415d8659c1e9d9efa1fb78cb952c2e2226724a63e428b689960b723536"
+    },
+    {
+      "path": "analysis/leafgreen-de-rev0-multiboot-stub-disassembly.json",
+      "sha256": "ccdb47c3d84843c487c09dc7a1bdd7339149c0300bdce9efd686fa0725634bc8"
+    },
+    {
+      "path": "analysis/leafgreen-fr-rev0-multiboot-stub-disassembly.json",
+      "sha256": "a005f958f0be9e32c745ef3c224c183ed3c8dc208842990f00e54449e040d82c"
+    },
+    {
+      "path": "analysis/leafgreen-it-rev0-multiboot-stub-disassembly.json",
+      "sha256": "db95a5da2c6cfa1b238f55fd1026d45bc59da0db1f0bc78490d162049c9986d0"
+    },
+    {
+      "path": "analysis/leafgreen-es-rev0-multiboot-stub-disassembly.json",
+      "sha256": "a9fdd031baf1094b107d098531b3a618795a4af0627a29f350723054b564389c"
+    },
+    {
+      "path": "research/multiboot-stub-disassembly.md",
+      "sha256": "9574fab067330c9f341e2b12c246c244234ebe7157028320338738d88165953d"
+    },
+    {
+      "path": "tests/test_multiboot_stub_disassembly.py",
+      "sha256": "cafe88b32b2c9544f9d01a439a6e7c91af39b3686a3502e83f7c96ef493b9676"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
