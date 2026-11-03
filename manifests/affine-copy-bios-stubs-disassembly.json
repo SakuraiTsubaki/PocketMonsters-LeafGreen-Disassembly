@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "LeafGreen",
+  "library": "libagbsyscall",
+  "functions": [
+    "BgAffineSet",
+    "CpuFastSet",
+    "ObjAffineSet"
+  ],
+  "profile": "frlg",
+  "origin_reference": "leafgreen-jp-rev0",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_affine_copy_bios_stubs.py",
+    "tool_sha256": "68098fe54fac1eee1af36825818965e8b81c81d26fc916859265ee6e895095fb"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "3ceb4ebc6f662a8116c7ad8d08ee2b926c0b10228d75f79fe7d5dac74be10c8f"
+    },
+    {
+      "path": "src/affine_copy_bios_stubs.s",
+      "sha256": "b82b0e3ba6932e426f4dba67964a8a012030802ba6f46b10697aaf7c7dfb48f7"
+    },
+    {
+      "path": "analysis/affine-copy-bios-stubs-disassembly-summary.json",
+      "sha256": "f6cc63f3c16aed4dfcabb361b54087a355c58848e9a584cd677338da0ccc737c"
+    },
+    {
+      "path": "analysis/leafgreen-jp-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "0522011885c2fafb854c58661e3aa3f2e932c699447105b231c72ad1c4bd6590"
+    },
+    {
+      "path": "analysis/leafgreen-en-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "0c87f490e91ad7d203c4b5b95f0c8a5bc2607f98156529ad24b6f74f778a54b2"
+    },
+    {
+      "path": "analysis/leafgreen-en-rev1-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "8657e2544eae9d626b220bdb32f63a5e9153d1b2d083378b9a5ec65fddfbb2c4"
+    },
+    {
+      "path": "analysis/leafgreen-de-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "168c9d78877ebfe16e3c47647946659846ce67e79384b33968ee72ee56bfbb27"
+    },
+    {
+      "path": "analysis/leafgreen-fr-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "fd108edd326c1b09e41970dba722597256630c2a9eded52dd7275bacb36614fb"
+    },
+    {
+      "path": "analysis/leafgreen-it-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "7f0619695e60287971ce37fc9ab07899bbee0a9a2bb823ba67fdbd5d19375f23"
+    },
+    {
+      "path": "analysis/leafgreen-es-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "5075fca44b6d5e693575e0666c8a818df3e026539a6c55850a3b06410ddfc4ae"
+    },
+    {
+      "path": "research/affine-copy-bios-stubs-disassembly.md",
+      "sha256": "99da99d50650c945b625bb193d9709819fbe5c6058f4a23d34b1caeaf6d4280c"
+    },
+    {
+      "path": "tests/test_affine_copy_bios_stubs_disassembly.py",
+      "sha256": "ae22274f74fde37f24e9ddcd126d73ededc91980327f97f641e7a696527b6571"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
