@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "LeafGreen",
+  "function": "Div",
+  "profile": "frlg-language-variant",
+  "origin_reference": "leafgreen-jp-rev0",
+  "origin_availability": "absent",
+  "release_count": 7,
+  "present_release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_frlg_div_variant.py",
+    "tool_sha256": "47db9f9dc18ea1f4cd6eaf2843cd80a093d6bc3f975b96772ebd1174f3db8432"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "3ceb4ebc6f662a8116c7ad8d08ee2b926c0b10228d75f79fe7d5dac74be10c8f"
+    },
+    {
+      "path": "src/div_bios_stub.s",
+      "sha256": "e6ab2a8ec3c5a673606b0565f3d8495f9b56a43bf5346096e6907753675cf8e0"
+    },
+    {
+      "path": "analysis/div-bios-stub-variant-summary.json",
+      "sha256": "95feb273be1dcfaf31455d12601bb75e486f4e3bfe495e61f7ca3eb123392b8e"
+    },
+    {
+      "path": "analysis/leafgreen-jp-rev0-div-bios-stub-variant.json",
+      "sha256": "9b82fe21208c3610e7838dbeee35bde13e2515fab76649b3bb99822f680ea5f7"
+    },
+    {
+      "path": "analysis/leafgreen-en-rev0-div-bios-stub-variant.json",
+      "sha256": "bd3c6ec9b7ac13ffac8f8cc16affb85e22edc2c0d626561f471c03ee7e661229"
+    },
+    {
+      "path": "analysis/leafgreen-en-rev1-div-bios-stub-variant.json",
+      "sha256": "75e9a197364aeed1fc9de696e89567bb34bbaa909caf84525991129a77c0e68e"
+    },
+    {
+      "path": "analysis/leafgreen-de-rev0-div-bios-stub-variant.json",
+      "sha256": "18963ef13ce390ccc4380617f150e884ac5471bc5f4efb6034d7c9ab3098efcb"
+    },
+    {
+      "path": "analysis/leafgreen-fr-rev0-div-bios-stub-variant.json",
+      "sha256": "72cdcc3b3caf1d5eb19869ab95d99a7f8f986964e7897fabd037143df93113f4"
+    },
+    {
+      "path": "analysis/leafgreen-it-rev0-div-bios-stub-variant.json",
+      "sha256": "a0d971512ff997da860f272cfcc66d31e639253edb0b61c839af265405cef666"
+    },
+    {
+      "path": "analysis/leafgreen-es-rev0-div-bios-stub-variant.json",
+      "sha256": "edae36061293b1fcb367e82da5480cf74627e78b477b13ecc86d177f5c3c568c"
+    },
+    {
+      "path": "research/div-bios-stub-language-variant.md",
+      "sha256": "d22d90b50e219950fdd21330557afe51f61eb95df8841c25acf7786cfb283350"
+    },
+    {
+      "path": "tests/test_div_bios_stub_variant.py",
+      "sha256": "b612db2d85512987e58af8d1393e92a32a3e2d404569785082d94c82517c4a27"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

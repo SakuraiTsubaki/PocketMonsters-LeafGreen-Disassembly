@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "profile": "frlg-language-variant",
+  "target": {
+    "release": "leafgreen-jp-rev0",
+    "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
+    "status": "candidate"
+  },
+  "origin_reference": true,
+  "availability": "absent",
+  "source_applies": false,
+  "source": "src/div_bios_stub.s",
+  "source_sha256": "e6ab2a8ec3c5a673606b0565f3d8495f9b56a43bf5346096e6907753675cf8e0",
+  "function": null,
+  "verified_layout": {
+    "lz77_vram_anchor": "0x081C7A68",
+    "expected_relative_offset_when_present": -4,
+    "signature_match_count": 0
+  },
+  "cross_reference": {
+    "lz77_bios_stubs": "analysis/leafgreen-jp-rev0-lz77-bios-stubs-disassembly.json",
+    "sha256": "0b4915eac906691b7f20e5ce4df13d1234f4ddc1c8cff619b949c248ba1bebe6"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "ce6406d8c2eaf46d543c8a2606de0c3cb1951982",
+    "path": "src/libagbsyscall.s"
+  },
+  "raw_rom_bytes_included": false
+}
