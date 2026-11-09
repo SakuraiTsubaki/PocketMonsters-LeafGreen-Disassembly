@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpg-i-rev0-retail",
+    "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 8,
+    "name": "wartortle"
+  },
+  "tables": {
+    "front": {
+      "entry_offset": 2285932,
+      "table_offset": 2285868,
+      "source_offset": 13847244,
+      "size": 2048,
+      "tag": 8
+    },
+    "back": {
+      "entry_offset": 2291212,
+      "table_offset": 2291148,
+      "source_offset": 13848224,
+      "size": 2048,
+      "tag": 8
+    },
+    "palette": {
+      "entry_offset": 2294732,
+      "table_offset": 2294668,
+      "source_offset": 13848184,
+      "tag": 8
+    }
+  },
+  "anchor_evidence": [
+    {
+      "path": "analysis/leafgreen-it-rev0-deoxys-front-table.json",
+      "sha256": "06c55202464c1c5cc4c648cd77054a39c6f3304cc3a6d26cbfc1ed2b04794dc3"
+    },
+    {
+      "path": "analysis/leafgreen-it-rev0-deoxys-back-table.json",
+      "sha256": "a5307fd706d9425645ebe20ec9ed0bb2b1b78a256df583b3e682cf7c68aec86f"
+    },
+    {
+      "path": "analysis/leafgreen-it-rev0-deoxys-palette.json",
+      "sha256": "2077bb0c497ce733c331cae843aa8e56f6399c552f8aedd539b662aae9a6372a"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "graphics/pokemon/wartortle-front-rev0-it.png",
+      "sha256": "4670579c77c2f8249ce5ac68738235b5924b0a9aa8be332f0d1d5542481c374f",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+        "source_offset": 13847244,
+        "compressed_length": 939,
+        "compressed_sha256": "efe1acd238c1819ac77cb75ee6294141aaf9f1f78d4d5c653b9deecf4b506a21",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "cbb9a01fe9a3bdef9ce19fb6b97b007b17fd1ff19babdcfd7e69dc5031f7b437",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "4670579c77c2f8249ce5ac68738235b5924b0a9aa8be332f0d1d5542481c374f",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "a787b5d4ede926c7eda2922318546760ca596cb51a9427626cf0130029fb2cb7"
+      }
+    },
+    {
+      "path": "graphics/pokemon/wartortle-back-rev0-it.png",
+      "sha256": "82c800e674671ea76201cab6d6dd49969cef6f127aa4b75e4e8bdd6f700f59d8",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+        "source_offset": 13848224,
+        "compressed_length": 839,
+        "compressed_sha256": "c0e2a773161eeb619a56147866b7d9f2019abe29877b3a1d5676cafe66e18f0a",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "ac9b2503f534182773ce385ea6067acea5ae84ba53952517f36b216b7b43971d",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "82c800e674671ea76201cab6d6dd49969cef6f127aa4b75e4e8bdd6f700f59d8",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "a787b5d4ede926c7eda2922318546760ca596cb51a9427626cf0130029fb2cb7"
+      }
+    },
+    {
+      "path": "graphics/pokemon/wartortle-rev0-it.pal",
+      "sha256": "a787b5d4ede926c7eda2922318546760ca596cb51a9427626cf0130029fb2cb7",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+        "source_offset": 13848184,
+        "compressed_length": 40,
+        "compressed_sha256": "f58f2018ec4c976388236495fc1bc2915e5e4fc61334eac33418cb1d4eb420e2",
+        "decompressed_length": 32,
+        "decompressed_sha256": "cabdcfc64b46f4e904b4a94939c2770c4e5222083ae5b7fe61c01a69f7eb282a",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "a787b5d4ede926c7eda2922318546760ca596cb51a9427626cf0130029fb2cb7",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
