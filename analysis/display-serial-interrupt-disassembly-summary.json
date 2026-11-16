@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon LeafGreen",
+  "functions": [
+    "HBlankIntr",
+    "VCountIntr",
+    "SerialIntr"
+  ],
+  "profile": "frlg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "source": "src/display_serial_interrupts.s",
+  "releases": [
+    {
+      "id": "bpg-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
+      "origin_reference": true,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x080007DC",
+          "code_sha256": "493d54dea9aa6add70ae477238b8575b099b6a5f545172b5dc5ef573c704dfa0"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x0800080C",
+          "code_sha256": "5a5f9055b3bbb99ded2031468430cd8e7f6e88eb70eae319fe92ee2e4a3478bd"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000844",
+          "code_sha256": "1fb7e9844e61920100cfb20bcc1694c3521cf9646c670e50ae152563eb92d8a2"
+        }
+      ],
+      "evidence": "analysis/bpg-j-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "bpg-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x080007DC",
+          "code_sha256": "18cd846e8bf55f47b075b5c42a1d48057f45d4857fdfbc23a17ae080d2348216"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x0800080C",
+          "code_sha256": "602924a72dfe2343f65263f20e1847edf087d5408ae99e330b38176e25468071"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000844",
+          "code_sha256": "eca66b3e2e1434dbf52647d52749c9a83356326881ba23b6376fffedfa7cee29"
+        }
+      ],
+      "evidence": "analysis/bpg-e-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "bpg-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "2f978f635b9593f6ca26ec42481c53a6b39f6cddd894ad5c062c1419fac58825",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x080007F0",
+          "code_sha256": "0997ae5f0232d49c533454f2ab8e28eb330c217003e140bf217301fa1c4c7c03"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000820",
+          "code_sha256": "04a9cbfbbd54104cc39e4d15d26e2a83fb403c56005a6271edf04aeabb6a597c"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000858",
+          "code_sha256": "304cc36ed83f6fdd424e7536d917520012e76479365f7ab57acef0b90946e832"
+        }
+      ],
+      "evidence": "analysis/bpg-e-rev1-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "bpg-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x080007EC",
+          "code_sha256": "4b3dd565457ca72e1f46fb9d7af5a87390ec8b5fa605ebc40b2444e974c29cee"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x0800081C",
+          "code_sha256": "037b9cc3e67053fba6efeae2ef7e26a7dd7b214c4dd6925609364775c3690f16"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000854",
+          "code_sha256": "327a49084c2196230aa58bbab5f93015ccd4b9a828fb847aa1060998cd9f4bdf"
+        }
+      ],
+      "evidence": "analysis/bpg-d-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "bpg-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "cc0fa93f4631d0814afcd5a273edf28f2876e126e8ef0df4dd39dd6f36e53ed3",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x080007D8",
+          "code_sha256": "26c9caa09283e9a3f6bc00786f1a55a91f21d82c7afdd287a01ae2cfef824aa1"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000808",
+          "code_sha256": "c3b0d2c47a7f5fb116a4ab7533d4eedc9e9ea45e71f18eb9322fae908857d661"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000840",
+          "code_sha256": "3a4f88bd6896482f8f5ff3e45361056b8c4c520c5490b92ed8e2c83d9d90f387"
+        }
+      ],
+      "evidence": "analysis/bpg-f-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "bpg-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x080007EC",
+          "code_sha256": "1fd3277d05e428bb8cdd707b77e59412f21dd74dec336b5948aeb43910525f66"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x0800081C",
+          "code_sha256": "431a66451a079d490fbe9638f3d675c66a6ce9d03d68942b367cd0c039aa4e5e"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000854",
+          "code_sha256": "cab006fdde983b5d6b0eb2b2c3aa025f89fdf5ce2763fe545af24f063dbaf3a6"
+        }
+      ],
+      "evidence": "analysis/bpg-i-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "bpg-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x080007D8",
+          "code_sha256": "e24a95d75a2c9baf350ec70752a5752cca8133ebe4666b0832785c16349a2cf3"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000808",
+          "code_sha256": "55625c652aa97f97e63a51c75dcf8b9c49e81d9ebdcf346d1be6ac10853f2bc5"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000840",
+          "code_sha256": "04ec7dade6c4dabf9ca66f81528d1167e9f4e230e1a8fdd9f544d7788b32f7e8"
+        }
+      ],
+      "evidence": "analysis/bpg-s-rev0-retail-display-serial-interrupt-disassembly.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
