@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon LeafGreen",
+  "functions": [
+    "InitKeys",
+    "ReadKeys"
+  ],
+  "family_profile": "frlg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_key_input.py",
+    "tool_sha256": "fda087b4e19eae4cef148639bffa19ae26d650316346bf8e67bc6b5e32b838bd"
+  },
+  "outputs": [
+    {
+      "path": "analysis/leafgreen-global-release-catalog.json",
+      "sha256": "2b39edb981133b7a6b4da03053a37d448c5291d7b7ec860f2571bf8c25e3cfe9"
+    },
+    {
+      "path": "src/key_input.s",
+      "sha256": "51e92e53a1c2139890779fddc89edebacb59d4098c595286cde51fd9cf934392"
+    },
+    {
+      "path": "analysis/key-input-disassembly-summary.json",
+      "sha256": "96762f393ce235ed79e12dfb73846004fc0a4e6b5f59d433f1b5e085e7f79d04"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-key-input-disassembly.json",
+      "sha256": "acd6dcde9078f115c051c8e8b1c955951efe75751fb51be969008c5bf0d5309e"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-key-input-disassembly.json",
+      "sha256": "a81ebd603e43601dde8a9be3cf6a2b4cc25ea8c316ad7a426ebaa7ade9253547"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-key-input-disassembly.json",
+      "sha256": "0d8d304af0a5ef0a9e7d7cc86fd847d17ac2a54b6e2df8692729a6037da9f1a7"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-key-input-disassembly.json",
+      "sha256": "5507b09be3c3b4f2a1023aaf1a2b1c94c11844ff82ccb7ff1cc78a6d1feb31b8"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-key-input-disassembly.json",
+      "sha256": "94543c6fb08769e93c9388e5638db46b3ec17f9cdfaeed14e67a89e7f6f45b1e"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-key-input-disassembly.json",
+      "sha256": "5073d38671b635cb501e59fb18c25a6781931542f5410dc2eb64b056a7b9ecab"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-key-input-disassembly.json",
+      "sha256": "3b361c5c095f9471afa95439f1aba5d583c6990591d0392ce5d298079e5aceb3"
+    },
+    {
+      "path": "research/key-input-disassembly.md",
+      "sha256": "31612ddaecba21211047754bf826dd83f7bd6d976d21e6c4668ed253c82c0403"
+    },
+    {
+      "path": "tests/test_key_input_disassembly.py",
+      "sha256": "880e7ef6a8789aeb5b6e63ce9102b9a89bdba3f1f4042f904631bebf4191cfca"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

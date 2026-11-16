@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon LeafGreen",
+  "functions": [
+    "InitKeys",
+    "ReadKeys"
+  ],
+  "family_profile": "frlg",
+  "save_options_access": "pointer_indirect",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "source": "src/key_input.s",
+  "releases": [
+    {
+      "id": "bpg-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
+      "origin_reference": true,
+      "functions": [
+        {
+          "name": "InitKeys",
+          "address": "0x080005C0",
+          "code_sha256": "ecad40afc14bc40d31fb0d2bb31089ee44e2260d3a864e280da8a36520eda960"
+        },
+        {
+          "name": "ReadKeys",
+          "address": "0x080005E8",
+          "code_sha256": "f16a6f7c10db882b3dfef38d967beac1f3e81b0326df24754300398c5a0196ce"
+        }
+      ],
+      "evidence": "analysis/bpg-j-rev0-retail-key-input-disassembly.json"
+    },
+    {
+      "id": "bpg-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "InitKeys",
+          "address": "0x080005C0",
+          "code_sha256": "ecad40afc14bc40d31fb0d2bb31089ee44e2260d3a864e280da8a36520eda960"
+        },
+        {
+          "name": "ReadKeys",
+          "address": "0x080005E8",
+          "code_sha256": "8d273d420daaa505143e9e67cc62dc7cb3d18426ba1be056c85272f9ec63406c"
+        }
+      ],
+      "evidence": "analysis/bpg-e-rev0-retail-key-input-disassembly.json"
+    },
+    {
+      "id": "bpg-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "2f978f635b9593f6ca26ec42481c53a6b39f6cddd894ad5c062c1419fac58825",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "InitKeys",
+          "address": "0x080005D4",
+          "code_sha256": "ecad40afc14bc40d31fb0d2bb31089ee44e2260d3a864e280da8a36520eda960"
+        },
+        {
+          "name": "ReadKeys",
+          "address": "0x080005FC",
+          "code_sha256": "8d273d420daaa505143e9e67cc62dc7cb3d18426ba1be056c85272f9ec63406c"
+        }
+      ],
+      "evidence": "analysis/bpg-e-rev1-retail-key-input-disassembly.json"
+    },
+    {
+      "id": "bpg-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "InitKeys",
+          "address": "0x080005D0",
+          "code_sha256": "ecad40afc14bc40d31fb0d2bb31089ee44e2260d3a864e280da8a36520eda960"
+        },
+        {
+          "name": "ReadKeys",
+          "address": "0x080005F8",
+          "code_sha256": "76997821f93205f68cca0e791c0858b985618d9b22112b2fe1d534dd7282df65"
+        }
+      ],
+      "evidence": "analysis/bpg-d-rev0-retail-key-input-disassembly.json"
+    },
+    {
+      "id": "bpg-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "cc0fa93f4631d0814afcd5a273edf28f2876e126e8ef0df4dd39dd6f36e53ed3",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "InitKeys",
+          "address": "0x080005BC",
+          "code_sha256": "ecad40afc14bc40d31fb0d2bb31089ee44e2260d3a864e280da8a36520eda960"
+        },
+        {
+          "name": "ReadKeys",
+          "address": "0x080005E4",
+          "code_sha256": "76997821f93205f68cca0e791c0858b985618d9b22112b2fe1d534dd7282df65"
+        }
+      ],
+      "evidence": "analysis/bpg-f-rev0-retail-key-input-disassembly.json"
+    },
+    {
+      "id": "bpg-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "InitKeys",
+          "address": "0x080005D0",
+          "code_sha256": "ecad40afc14bc40d31fb0d2bb31089ee44e2260d3a864e280da8a36520eda960"
+        },
+        {
+          "name": "ReadKeys",
+          "address": "0x080005F8",
+          "code_sha256": "76997821f93205f68cca0e791c0858b985618d9b22112b2fe1d534dd7282df65"
+        }
+      ],
+      "evidence": "analysis/bpg-i-rev0-retail-key-input-disassembly.json"
+    },
+    {
+      "id": "bpg-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "InitKeys",
+          "address": "0x080005BC",
+          "code_sha256": "ecad40afc14bc40d31fb0d2bb31089ee44e2260d3a864e280da8a36520eda960"
+        },
+        {
+          "name": "ReadKeys",
+          "address": "0x080005E4",
+          "code_sha256": "76997821f93205f68cca0e791c0858b985618d9b22112b2fe1d534dd7282df65"
+        }
+      ],
+      "evidence": "analysis/bpg-s-rev0-retail-key-input-disassembly.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
