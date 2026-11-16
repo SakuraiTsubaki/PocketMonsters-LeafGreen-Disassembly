@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon LeafGreen",
+  "functions": [
+    "PlayTimeCounter_Reset",
+    "PlayTimeCounter_Start",
+    "PlayTimeCounter_Stop",
+    "PlayTimeCounter_Update",
+    "PlayTimeCounter_SetToMax"
+  ],
+  "profile": "frlg",
+  "storage_profile": "pointer",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_play_time.py",
+    "tool_sha256": "55a2f1885042c0cd07838ff2f41e864cf776c9be5288be7e63ac23ddcb72acfe"
+  },
+  "outputs": [
+    {
+      "path": "analysis/leafgreen-global-release-catalog.json",
+      "sha256": "2b39edb981133b7a6b4da03053a37d448c5291d7b7ec860f2571bf8c25e3cfe9"
+    },
+    {
+      "path": "src/play_time_counter.s",
+      "sha256": "63dd08f9699d57df78865ca827819cbc16b8819d576f6830c43459a77c96ad57"
+    },
+    {
+      "path": "analysis/play-time-counter-disassembly-summary.json",
+      "sha256": "180feb9f5ba052f9ad90a95b6c358e1551b8a9d76db2afd30dd4591aafc4f321"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-play-time-counter-disassembly.json",
+      "sha256": "3855b95006c648405a9690cbf26197b3a88a104e853ab821cea779b1e6570457"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-play-time-counter-disassembly.json",
+      "sha256": "9d9ac40c5afc7cf27371829395f2b627654c15ad2fb1e8a13a11d80652fc37fe"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-play-time-counter-disassembly.json",
+      "sha256": "4f9bdfc9e463453efe4da8200947f8b9f2799e68d575da0af213388bf90f68d1"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-play-time-counter-disassembly.json",
+      "sha256": "0eb9825ea0badfddb0b16efee29a7d822ac6c6b8ef257ad6b26f7570205dac6a"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-play-time-counter-disassembly.json",
+      "sha256": "3762b03cfe43a6599a1e7622d4c725286371c7b4d9c15c9e948cfd86f926cc3b"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-play-time-counter-disassembly.json",
+      "sha256": "e8cb342b9390810e21f90752d6893454c1e2fe7861b8440b135168a4cfab59b8"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-play-time-counter-disassembly.json",
+      "sha256": "ae111f60e5e40ae0096b29c6c93506df13cd47affe0bb19de8f5fa6402e12b2a"
+    },
+    {
+      "path": "research/play-time-counter-disassembly.md",
+      "sha256": "e5b5fba7622c759fac3f69af9f6989218e93324fc624460baddbd33b4b499011"
+    },
+    {
+      "path": "tests/test_play_time_counter_disassembly.py",
+      "sha256": "6be1cd61c3312c493ee841f2e50a100b62ac1df9a9bc717d312fd0817feccd5a"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
