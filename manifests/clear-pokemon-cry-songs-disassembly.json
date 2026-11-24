@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon LeafGreen",
+  "function": "ClearPokemonCrySongs",
+  "profile": "frlg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_clear_cry_songs.py",
+    "tool_sha256": "2e083a7491daf0eba1be8f5681f886e520a94b7c8dd80ee0aa81718b81591195"
+  },
+  "outputs": [
+    {
+      "path": "analysis/leafgreen-global-release-catalog.json",
+      "sha256": "2b39edb981133b7a6b4da03053a37d448c5291d7b7ec860f2571bf8c25e3cfe9"
+    },
+    {
+      "path": "src/clear_pokemon_cry_songs.s",
+      "sha256": "10a71917211fdfdfaa5d362ac64c7cc8eecc77521b19f090988e1bdb18e777d3"
+    },
+    {
+      "path": "analysis/clear-pokemon-cry-songs-disassembly-summary.json",
+      "sha256": "090222cd7f2eef471c95d935a9fb68b1feea7d4032c1370e9db1267b8a377183"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-clear-pokemon-cry-songs-disassembly.json",
+      "sha256": "8d01955d7af5c26ff86f26371008d43c4efa9a0df3bfb7be54bd1fbeecaed332"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-clear-pokemon-cry-songs-disassembly.json",
+      "sha256": "0691debeecb2a469b563b660a06d10f9e19eeade20b84b3430af114c2082d743"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-clear-pokemon-cry-songs-disassembly.json",
+      "sha256": "0110e6de59255f2c57acafb1a53eae6a3ca541ce6565e64cd3a468cee1959918"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-clear-pokemon-cry-songs-disassembly.json",
+      "sha256": "0426b43a5c91cf4a4b827d49bc206854bd58469a4b6edf985b9038d30a69e5cb"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-clear-pokemon-cry-songs-disassembly.json",
+      "sha256": "cd6af1dc6423489ea6efdf2d45e6fbba03881dd15c0de26062195934361b7b89"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-clear-pokemon-cry-songs-disassembly.json",
+      "sha256": "27bec2ac761267ea27417115d752a8ab881eb7199ea789559022ed02d60143a6"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-clear-pokemon-cry-songs-disassembly.json",
+      "sha256": "16b83dbeec1b437151e4e6568bff15be3cf2016bc04e311e8dd3e4f7b34e3a01"
+    },
+    {
+      "path": "research/clear-pokemon-cry-songs-disassembly.md",
+      "sha256": "bfa7bbfbcaccf3986eb8d117c5fdf0cb620955638edd86ff4c04fc149973c876"
+    },
+    {
+      "path": "tests/test_clear_pokemon_cry_songs_disassembly.py",
+      "sha256": "60a76fcdfc9cc8fd401d02476f4fd2df15e8fe38037c217189ad1e070fa70ec0"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
