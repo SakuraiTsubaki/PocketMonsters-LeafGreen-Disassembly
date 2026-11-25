@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "LeafGreen",
+  "function": "VBlankIntr",
+  "profile": "frlg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "source": "src/vblank_intr.s",
+  "releases": [
+    {
+      "id": "bpg-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
+      "origin_reference": true,
+      "address": "0x08000724",
+      "code_sha256": "8a8db0df2682e3d57b696cef6131e7beaf395dbe34d9ade4276bb68504c23b23",
+      "evidence": "analysis/bpg-j-rev0-retail-vblank-intr-disassembly.json"
+    },
+    {
+      "id": "bpg-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc",
+      "origin_reference": false,
+      "address": "0x08000724",
+      "code_sha256": "edd54df52235ce35d538d2edceecdc830ff6c68b6331774612c35723734cd731",
+      "evidence": "analysis/bpg-e-rev0-retail-vblank-intr-disassembly.json"
+    },
+    {
+      "id": "bpg-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "2f978f635b9593f6ca26ec42481c53a6b39f6cddd894ad5c062c1419fac58825",
+      "origin_reference": false,
+      "address": "0x08000738",
+      "code_sha256": "0b30eead65c1d6a402797e71dcd0a68d93a0e789a8a63ba0ad84727b88b8ca27",
+      "evidence": "analysis/bpg-e-rev1-retail-vblank-intr-disassembly.json"
+    },
+    {
+      "id": "bpg-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2",
+      "origin_reference": false,
+      "address": "0x08000734",
+      "code_sha256": "0f7c0a898a868ed203d86886087d3f4b4bf7b5f77456bcc3fd95c4fe1a1ac36a",
+      "evidence": "analysis/bpg-d-rev0-retail-vblank-intr-disassembly.json"
+    },
+    {
+      "id": "bpg-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "cc0fa93f4631d0814afcd5a273edf28f2876e126e8ef0df4dd39dd6f36e53ed3",
+      "origin_reference": false,
+      "address": "0x08000720",
+      "code_sha256": "a02924501b231b32708f4db652146a2471a48b0accf4daffb938b50001a9fe29",
+      "evidence": "analysis/bpg-f-rev0-retail-vblank-intr-disassembly.json"
+    },
+    {
+      "id": "bpg-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+      "origin_reference": false,
+      "address": "0x08000734",
+      "code_sha256": "ed78fdb7539ddf616fe50a4ab2e2b9b133f0028d73b88de2d851b0b8d285f1b8",
+      "evidence": "analysis/bpg-i-rev0-retail-vblank-intr-disassembly.json"
+    },
+    {
+      "id": "bpg-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48",
+      "origin_reference": false,
+      "address": "0x08000720",
+      "code_sha256": "b458dabe12bbad42b6b575f75cacddab9f132eacac246b3e6f154b5830aa80b5",
+      "evidence": "analysis/bpg-s-rev0-retail-vblank-intr-disassembly.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

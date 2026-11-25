@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "LeafGreen",
+  "profile": "frlg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_vblank_intr.py",
+    "tool_sha256": "b53f1da576895069c055491a85c0179ceaebff921319b84d71782c1cd1365c2d"
+  },
+  "outputs": [
+    {
+      "path": "analysis/leafgreen-global-release-catalog.json",
+      "sha256": "2b39edb981133b7a6b4da03053a37d448c5291d7b7ec860f2571bf8c25e3cfe9"
+    },
+    {
+      "path": "src/vblank_intr.s",
+      "sha256": "a60642c201030a82b0635a6707ac88d128a52b48064bfb0045b2f2e9537ced1e"
+    },
+    {
+      "path": "analysis/vblank-intr-disassembly-summary.json",
+      "sha256": "a69c35fff8458c88be0521d7ce39247ca0c82a193dc5dc7a1e85b903d2986746"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-vblank-intr-disassembly.json",
+      "sha256": "a9e27c3055cf14536747c84060d712148033dff6feffb2adb837c0f2f2902ee2"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-vblank-intr-disassembly.json",
+      "sha256": "acfd9edb29813efc3044f9e6b7d1fc9d81ea85f6b402ec0139dbd5bd9c96caab"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-vblank-intr-disassembly.json",
+      "sha256": "47de6b4310e501d9c8fc4c5ae1d6ac85b9cc35ecc8709317d3db32f26d733fad"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-vblank-intr-disassembly.json",
+      "sha256": "4fc0f3c581bc8ef35a489a0b9f1d4e5a1db29e445300629b10754706eabeae11"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-vblank-intr-disassembly.json",
+      "sha256": "e99dd0157426b5255f3bf128359b2f085f1969d4dccfaaaddddf7d37f4dea9c1"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-vblank-intr-disassembly.json",
+      "sha256": "725db80b1906b60990977c2d9dc7b264e515e7fe692291dc1ee0ba1add6238f0"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-vblank-intr-disassembly.json",
+      "sha256": "bb8bd59e41e8acf6ae89d3934ceddcf274be7c7922928c8bb37f6dfe24c93e9b"
+    },
+    {
+      "path": "research/vblank-intr-disassembly.md",
+      "sha256": "2553d901c18ec772244a8cab28c2394391a2a7137e7f7a7de520a98f96d8ac00"
+    },
+    {
+      "path": "tests/test_vblank_intr_disassembly.py",
+      "sha256": "9abc7111c21e4d62803f086dd252cd557df92372816e5f661a3276d0df5a4ab0"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
