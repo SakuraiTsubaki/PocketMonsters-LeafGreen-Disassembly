@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon LeafGreen",
+  "profile": "frlg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "source": "src/interrupt_init.s",
+  "releases": [
+    {
+      "id": "bpg-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2",
+      "origin_reference": true,
+      "functions": [
+        {
+          "name": "InitIntrHandlers",
+          "address": "0x08000688",
+          "code_sha256": "7b9f745c82f1bdd0fea3f09e521f5bd18051ba1eaf20109af1450a8430acd2c2"
+        },
+        {
+          "name": "SetVBlankCallback",
+          "address": "0x080006F4",
+          "code_sha256": "e441c29ec1659efc7db5fd5503e17f388fef72de460ac17bbf733a5de3cbeeea"
+        },
+        {
+          "name": "SetHBlankCallback",
+          "address": "0x08000700",
+          "code_sha256": "8952f4d7fffa48d11baf179e51fc37f16079a347a33fc7b8c39b2a43097614fb"
+        },
+        {
+          "name": "SetVCountCallback",
+          "address": "0x0800070C",
+          "code_sha256": "4c169a613f004b199bae27ab380af83ef0666156c253b7ea5058e8df7c59621f"
+        },
+        {
+          "name": "SetSerialCallback",
+          "address": "0x08000718",
+          "code_sha256": "c8c8690329a4bc524db05d03eb2eb0b52d63fd2ff6a38a2d104287d4a26e25ff"
+        }
+      ],
+      "evidence": "analysis/bpg-j-rev0-retail-interrupt-init-disassembly.json"
+    },
+    {
+      "id": "bpg-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "78d310d557ceebc593bd393acc52d1b19a8f023fec40bc200e6063880d8531fc",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "InitIntrHandlers",
+          "address": "0x08000688",
+          "code_sha256": "7b9f745c82f1bdd0fea3f09e521f5bd18051ba1eaf20109af1450a8430acd2c2"
+        },
+        {
+          "name": "SetVBlankCallback",
+          "address": "0x080006F4",
+          "code_sha256": "e441c29ec1659efc7db5fd5503e17f388fef72de460ac17bbf733a5de3cbeeea"
+        },
+        {
+          "name": "SetHBlankCallback",
+          "address": "0x08000700",
+          "code_sha256": "8952f4d7fffa48d11baf179e51fc37f16079a347a33fc7b8c39b2a43097614fb"
+        },
+        {
+          "name": "SetVCountCallback",
+          "address": "0x0800070C",
+          "code_sha256": "4c169a613f004b199bae27ab380af83ef0666156c253b7ea5058e8df7c59621f"
+        },
+        {
+          "name": "SetSerialCallback",
+          "address": "0x08000718",
+          "code_sha256": "c8c8690329a4bc524db05d03eb2eb0b52d63fd2ff6a38a2d104287d4a26e25ff"
+        }
+      ],
+      "evidence": "analysis/bpg-e-rev0-retail-interrupt-init-disassembly.json"
+    },
+    {
+      "id": "bpg-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "2f978f635b9593f6ca26ec42481c53a6b39f6cddd894ad5c062c1419fac58825",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "InitIntrHandlers",
+          "address": "0x0800069C",
+          "code_sha256": "7b9f745c82f1bdd0fea3f09e521f5bd18051ba1eaf20109af1450a8430acd2c2"
+        },
+        {
+          "name": "SetVBlankCallback",
+          "address": "0x08000708",
+          "code_sha256": "e441c29ec1659efc7db5fd5503e17f388fef72de460ac17bbf733a5de3cbeeea"
+        },
+        {
+          "name": "SetHBlankCallback",
+          "address": "0x08000714",
+          "code_sha256": "8952f4d7fffa48d11baf179e51fc37f16079a347a33fc7b8c39b2a43097614fb"
+        },
+        {
+          "name": "SetVCountCallback",
+          "address": "0x08000720",
+          "code_sha256": "4c169a613f004b199bae27ab380af83ef0666156c253b7ea5058e8df7c59621f"
+        },
+        {
+          "name": "SetSerialCallback",
+          "address": "0x0800072C",
+          "code_sha256": "c8c8690329a4bc524db05d03eb2eb0b52d63fd2ff6a38a2d104287d4a26e25ff"
+        }
+      ],
+      "evidence": "analysis/bpg-e-rev1-retail-interrupt-init-disassembly.json"
+    },
+    {
+      "id": "bpg-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "6ab7183caf8bf093f42351cf7c891722ecef85f2ded922f6d2491c6062fa3fc2",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "InitIntrHandlers",
+          "address": "0x08000698",
+          "code_sha256": "7b9f745c82f1bdd0fea3f09e521f5bd18051ba1eaf20109af1450a8430acd2c2"
+        },
+        {
+          "name": "SetVBlankCallback",
+          "address": "0x08000704",
+          "code_sha256": "e441c29ec1659efc7db5fd5503e17f388fef72de460ac17bbf733a5de3cbeeea"
+        },
+        {
+          "name": "SetHBlankCallback",
+          "address": "0x08000710",
+          "code_sha256": "8952f4d7fffa48d11baf179e51fc37f16079a347a33fc7b8c39b2a43097614fb"
+        },
+        {
+          "name": "SetVCountCallback",
+          "address": "0x0800071C",
+          "code_sha256": "4c169a613f004b199bae27ab380af83ef0666156c253b7ea5058e8df7c59621f"
+        },
+        {
+          "name": "SetSerialCallback",
+          "address": "0x08000728",
+          "code_sha256": "c8c8690329a4bc524db05d03eb2eb0b52d63fd2ff6a38a2d104287d4a26e25ff"
+        }
+      ],
+      "evidence": "analysis/bpg-d-rev0-retail-interrupt-init-disassembly.json"
+    },
+    {
+      "id": "bpg-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "cc0fa93f4631d0814afcd5a273edf28f2876e126e8ef0df4dd39dd6f36e53ed3",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "InitIntrHandlers",
+          "address": "0x08000684",
+          "code_sha256": "7b9f745c82f1bdd0fea3f09e521f5bd18051ba1eaf20109af1450a8430acd2c2"
+        },
+        {
+          "name": "SetVBlankCallback",
+          "address": "0x080006F0",
+          "code_sha256": "e441c29ec1659efc7db5fd5503e17f388fef72de460ac17bbf733a5de3cbeeea"
+        },
+        {
+          "name": "SetHBlankCallback",
+          "address": "0x080006FC",
+          "code_sha256": "8952f4d7fffa48d11baf179e51fc37f16079a347a33fc7b8c39b2a43097614fb"
+        },
+        {
+          "name": "SetVCountCallback",
+          "address": "0x08000708",
+          "code_sha256": "4c169a613f004b199bae27ab380af83ef0666156c253b7ea5058e8df7c59621f"
+        },
+        {
+          "name": "SetSerialCallback",
+          "address": "0x08000714",
+          "code_sha256": "c8c8690329a4bc524db05d03eb2eb0b52d63fd2ff6a38a2d104287d4a26e25ff"
+        }
+      ],
+      "evidence": "analysis/bpg-f-rev0-retail-interrupt-init-disassembly.json"
+    },
+    {
+      "id": "bpg-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "c71599a482c43df2104ce6be903393333d3ebacbf392ea5fcd8792dada8a5076",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "InitIntrHandlers",
+          "address": "0x08000698",
+          "code_sha256": "7b9f745c82f1bdd0fea3f09e521f5bd18051ba1eaf20109af1450a8430acd2c2"
+        },
+        {
+          "name": "SetVBlankCallback",
+          "address": "0x08000704",
+          "code_sha256": "e441c29ec1659efc7db5fd5503e17f388fef72de460ac17bbf733a5de3cbeeea"
+        },
+        {
+          "name": "SetHBlankCallback",
+          "address": "0x08000710",
+          "code_sha256": "8952f4d7fffa48d11baf179e51fc37f16079a347a33fc7b8c39b2a43097614fb"
+        },
+        {
+          "name": "SetVCountCallback",
+          "address": "0x0800071C",
+          "code_sha256": "4c169a613f004b199bae27ab380af83ef0666156c253b7ea5058e8df7c59621f"
+        },
+        {
+          "name": "SetSerialCallback",
+          "address": "0x08000728",
+          "code_sha256": "c8c8690329a4bc524db05d03eb2eb0b52d63fd2ff6a38a2d104287d4a26e25ff"
+        }
+      ],
+      "evidence": "analysis/bpg-i-rev0-retail-interrupt-init-disassembly.json"
+    },
+    {
+      "id": "bpg-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "f8908e0bd32cf27077a26b557e1eea0ff06ce8059bee5dc7d799aab44a070d48",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "InitIntrHandlers",
+          "address": "0x08000684",
+          "code_sha256": "7b9f745c82f1bdd0fea3f09e521f5bd18051ba1eaf20109af1450a8430acd2c2"
+        },
+        {
+          "name": "SetVBlankCallback",
+          "address": "0x080006F0",
+          "code_sha256": "e441c29ec1659efc7db5fd5503e17f388fef72de460ac17bbf733a5de3cbeeea"
+        },
+        {
+          "name": "SetHBlankCallback",
+          "address": "0x080006FC",
+          "code_sha256": "8952f4d7fffa48d11baf179e51fc37f16079a347a33fc7b8c39b2a43097614fb"
+        },
+        {
+          "name": "SetVCountCallback",
+          "address": "0x08000708",
+          "code_sha256": "4c169a613f004b199bae27ab380af83ef0666156c253b7ea5058e8df7c59621f"
+        },
+        {
+          "name": "SetSerialCallback",
+          "address": "0x08000714",
+          "code_sha256": "c8c8690329a4bc524db05d03eb2eb0b52d63fd2ff6a38a2d104287d4a26e25ff"
+        }
+      ],
+      "evidence": "analysis/bpg-s-rev0-retail-interrupt-init-disassembly.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon LeafGreen",
+  "profile": "frlg",
+  "origin_reference": "bpg-j-rev0-retail",
+  "release_count": 7,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_interrupt_init.py",
+    "tool_sha256": "a8cd89a6748016898bf25c749941988ab7ab22589e5f5edec34f03996eaf17a5"
+  },
+  "outputs": [
+    {
+      "path": "analysis/leafgreen-global-release-catalog.json",
+      "sha256": "2b39edb981133b7a6b4da03053a37d448c5291d7b7ec860f2571bf8c25e3cfe9"
+    },
+    {
+      "path": "src/interrupt_init.s",
+      "sha256": "93bc8dfa037169633d67c043bb1138011643b4e1bf70b87ca16358d84bb741ba"
+    },
+    {
+      "path": "analysis/interrupt-init-disassembly-summary.json",
+      "sha256": "6f52630e5bc46e63578442ac8f6cda50d89b1d53844490f097a08232cbb9b1a5"
+    },
+    {
+      "path": "analysis/bpg-j-rev0-retail-interrupt-init-disassembly.json",
+      "sha256": "981e13ccd356b4b52ae01c07d0b6db51ce4a55df0f51f4f5b27735b9ec899ec6"
+    },
+    {
+      "path": "analysis/bpg-e-rev0-retail-interrupt-init-disassembly.json",
+      "sha256": "c777bdb0fcec4f762cee5c667535dade9a8898d092f703f1066f53a7c890f9c0"
+    },
+    {
+      "path": "analysis/bpg-e-rev1-retail-interrupt-init-disassembly.json",
+      "sha256": "4f6a1399691b58dae4c552a8c27d2332a0da177db0f7c7103ae6b6e7a7cb85f3"
+    },
+    {
+      "path": "analysis/bpg-d-rev0-retail-interrupt-init-disassembly.json",
+      "sha256": "99176960f4fb9b171d655371673840833304504485dbd9a0d05d6d68e6cb10d0"
+    },
+    {
+      "path": "analysis/bpg-f-rev0-retail-interrupt-init-disassembly.json",
+      "sha256": "6abc3dae299cde1b6671048a2cdbcc12458fa57e936cc2dabb90c853eba902f9"
+    },
+    {
+      "path": "analysis/bpg-i-rev0-retail-interrupt-init-disassembly.json",
+      "sha256": "932d07d7a8b79efdd0c25f94cc2ec7d98ccf246c96e9fff1fbe107c7efa50ad3"
+    },
+    {
+      "path": "analysis/bpg-s-rev0-retail-interrupt-init-disassembly.json",
+      "sha256": "0550ff2a97ef9c6ee1d616b1ecde89cb91b944f1685b8a14a481197287342a3b"
+    },
+    {
+      "path": "research/interrupt-init-disassembly.md",
+      "sha256": "119f43304580130249e3adebbab241cc5ffa0329499649fe2ad4aed2e4114c85"
+    },
+    {
+      "path": "tests/test_interrupt_init_disassembly.py",
+      "sha256": "4a0eb63821a368862edf4aabaa8c3cb3b589a54556ba3273dc6587051730ad54"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
